@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+
+            /**
+             * Gets a quote via JSON.
+             */
+            function quote()
+            {
+                $.getJSON('jsontest-new.json', function(data) {
+                    $('#price').html(data.price);
+                });
+            }
+
+        </script>
+         <title>ajax-2</title>
+     </head>
+     <body>
+        <form onsubmit="quote(); return false;">
+            Symbol: <input autocomplete="off" autofocus id="symbol" type="text"/>
+            <br/>
+            Price: <span id="price">to be determined</span>
+            <br/><br/>
+            <input type="submit" value="Get Quote"/>
+        </form>
+     </body>
+ </html>

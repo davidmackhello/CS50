@@ -1,0 +1,73 @@
+tablesize = 10000                        tablesize = 20000
+
+This file is texts/austinpowers.txt     			This file is texts/austinpowers.txt     
+
+WORDS MISSPELLED:     644					WORDS MISSPELLED:     644
+WORDS IN DICTIONARY:  143091					WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        19190					WORDS IN TEXT:        19190
+TIME IN load:         0.04					TIME IN load:         0.04
+TIME IN check:        0.02				      |	TIME IN check:        0.00
+TIME IN size:         0.00					TIME IN size:         0.00
+TIME IN unload:       0.03				      |	TIME IN unload:       0.02
+TIME IN TOTAL:        0.10				      |	TIME IN TOTAL:        0.06
+
+
+This file is texts/christmas.txt     				This file is texts/christmas.txt     
+
+WORDS MISSPELLED:     383					WORDS MISSPELLED:     383
+WORDS IN DICTIONARY:  143091					WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        31927					WORDS IN TEXT:        31927
+TIME IN load:         0.04					TIME IN load:         0.04
+TIME IN check:        0.02					TIME IN check:        0.02
+TIME IN size:         0.00					TIME IN size:         0.00
+TIME IN unload:       0.02					TIME IN unload:       0.02
+TIME IN TOTAL:        0.08					TIME IN TOTAL:        0.08
+
+
+This file is texts/daffodils.txt     				This file is texts/daffodils.txt     
+
+WORDS MISSPELLED:     0						WORDS MISSPELLED:     0
+WORDS IN DICTIONARY:  143091					WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        158					WORDS IN TEXT:        158
+TIME IN load:         0.03				      |	TIME IN load:         0.04
+TIME IN check:        0.00					TIME IN check:        0.00
+TIME IN size:         0.00					TIME IN size:         0.00
+TIME IN unload:       0.02					TIME IN unload:       0.02
+TIME IN TOTAL:        0.05				      |	TIME IN TOTAL:        0.06
+
+
+This file is texts/kjv.txt     					This file is texts/kjv.txt     
+
+WORDS MISSPELLED:     33441					WORDS MISSPELLED:     33441
+WORDS IN DICTIONARY:  143091					WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        799460					WORDS IN TEXT:        799460
+TIME IN load:         0.04				      |	TIME IN load:         0.05
+TIME IN check:        0.60				      |	TIME IN check:        0.56
+TIME IN size:         0.00					TIME IN size:         0.00
+TIME IN unload:       0.03					TIME IN unload:       0.03
+TIME IN TOTAL:        0.67				      |	TIME IN TOTAL:        0.65
+
+
+This file is texts/shakespeare.txt     				This file is texts/shakespeare.txt     
+
+WORDS MISSPELLED:     45691					WORDS MISSPELLED:     45691
+WORDS IN DICTIONARY:  143091					WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        904612					WORDS IN TEXT:        904612
+TIME IN load:         0.04				      |	TIME IN load:         0.05
+TIME IN check:        0.87				      |	TIME IN check:        0.64
+TIME IN size:         0.00					TIME IN size:         0.00
+TIME IN unload:       0.02				      |	TIME IN unload:       0.03
+TIME IN TOTAL:        0.94				      |	TIME IN TOTAL:        0.72
+
+
+This file is texts/ulysses.txt     				This file is texts/ulysses.txt     
+
+WORDS MISSPELLED:     14848					WORDS MISSPELLED:     14848
+WORDS IN DICTIONARY:  143091					WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        266235					WORDS IN TEXT:        266235
+TIME IN load:         0.04					TIME IN load:         0.04
+TIME IN check:        0.25				      |	TIME IN check:        0.16
+TIME IN size:         0.00					TIME IN size:         0.00
+TIME IN unload:       0.02				      |	TIME IN unload:       0.03
+TIME IN TOTAL:        0.31				      |	TIME IN TOTAL:        0.23
+

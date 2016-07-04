@@ -1,0 +1,9 @@
+questions.txt
+
+Computer Science 50
+Problem Set 3
+
+0. 3x3, 5x5, 6x6, 7x7, 8x8, and 9x9
+1. A two-dimensional array of integers
+2. A custom function named "greet" - greet() calls the following functions: clear (clears terminal screen), printf (prints welcome text), and usleep (causes the program to pause for a short time)
+3. init, draw, move, won

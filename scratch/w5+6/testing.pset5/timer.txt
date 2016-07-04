@@ -1,0 +1,94 @@
+first trie implementation of spellchecker
+
+1. KJV
+
+WORDS MISSPELLED:     33441                                     WORDS MISSPELLED:     33441
+WORDS IN DICTIONARY:  143091                                    WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        799460                                    WORDS IN TEXT:        799460
+TIME IN load:         0.11                                    | TIME IN load:         0.04
+TIME IN check:        0.43                                    | TIME IN check:        0.40
+TIME IN size:         0.00                                      TIME IN size:         0.00
+TIME IN unload:       0.08                                    | TIME IN unload:       0.02
+TIME IN TOTAL:        0.61                                    | TIME IN TOTAL:        0.46
+
+
+
+2. Austin Powers
+
+WORDS MISSPELLED:     644                                       WORDS MISSPELLED:     644
+WORDS IN DICTIONARY:  143091                                    WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        19190                                     WORDS IN TEXT:        19190
+TIME IN load:         0.09                                    | TIME IN load:         0.03
+TIME IN check:        0.01                                    | TIME IN check:        0.02
+TIME IN size:         0.00                                      TIME IN size:         0.00
+TIME IN unload:       0.07                                    | TIME IN unload:       0.01
+TIME IN TOTAL:        0.17                                    | TIME IN TOTAL:        0.05
+
+
+
+3. Daffodils
+
+WORDS MISSPELLED:     0                                         WORDS MISSPELLED:     0
+WORDS IN DICTIONARY:  143091                                    WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        158                                       WORDS IN TEXT:        158
+TIME IN load:         0.10                                    | TIME IN load:         0.02
+TIME IN check:        0.00                                      TIME IN check:        0.00
+TIME IN size:         0.00                                      TIME IN size:         0.00
+TIME IN unload:       0.07                                    | TIME IN unload:       0.01
+TIME IN TOTAL:        0.17                                    | TIME IN TOTAL:        0.04
+
+
+
+4. christmas
+
+WORDS MISSPELLED:     383                                       WORDS MISSPELLED:     383
+WORDS IN DICTIONARY:  143091                                    WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        31927                                     WORDS IN TEXT:        31927
+TIME IN load:         0.10                                    | TIME IN load:         0.02
+TIME IN check:        0.02                                      TIME IN check:        0.02
+TIME IN size:         0.00                                      TIME IN size:         0.00
+TIME IN unload:       0.07                                    | TIME IN unload:       0.01
+TIME IN TOTAL:        0.19                                    | TIME IN TOTAL:        0.06
+
+
+
+5. shakespeare
+
+WORDS MISSPELLED:     45691                                     WORDS MISSPELLED:     45691
+WORDS IN DICTIONARY:  143091                                    WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        904612                                    WORDS IN TEXT:        904612
+TIME IN load:         0.10                                    | TIME IN load:         0.03
+TIME IN check:        0.36                                    | TIME IN check:        0.41
+TIME IN size:         0.00                                      TIME IN size:         0.00
+TIME IN unload:       0.07                                    | TIME IN unload:       0.01
+TIME IN TOTAL:        0.53                                    | TIME IN TOTAL:        0.45
+
+
+
+6. ulysses
+
+WORDS MISSPELLED:     14848                                     WORDS MISSPELLED:     14848
+WORDS IN DICTIONARY:  143091                                    WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        266235                                    WORDS IN TEXT:        266235
+TIME IN load:         0.12                                    | TIME IN load:         0.04
+TIME IN check:        0.17                                    | TIME IN check:        0.18
+TIME IN size:         0.00                                      TIME IN size:         0.00
+TIME IN unload:       0.08                                    | TIME IN unload:       0.01
+TIME IN TOTAL:        0.36                                    | TIME IN TOTAL:        0.22
+
+
+
+7. Package
+
+WORDS MISSPELLED:     62                                        WORDS MISSPELLED:     62
+WORDS IN DICTIONARY:  143091                                    WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        3161                                      WORDS IN TEXT:        3161
+TIME IN load:         0.11                                    | TIME IN load:         0.03
+TIME IN check:        0.00                                      TIME IN check:        0.00
+TIME IN size:         0.00                                      TIME IN size:         0.00
+TIME IN unload:       0.07                                    | TIME IN unload:       0.01
+TIME IN TOTAL:        0.18                                    | TIME IN TOTAL:        0.04
+
+
+
+

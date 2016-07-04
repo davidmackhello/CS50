@@ -1,0 +1,19 @@
+0.  BMP - 4,294,967,296 colors (supports up to a 32 bit per pixel format); GIF - 256 colors (8 bits per pixel); JPEG - 16,777,216 colors (24 bits per pixel); PNG - 16,777,216 colors (24 bits per pixel)
+1.  GIF
+2.  When compressing a file to reduce its data size, lossless compression allows a file to ultimately be returned to its original state, without the loss of any data, when it is uncompressed. Lossy compression irreversibly removes certain information (often in a way that doesn't impact image quality significantly), and when it is uncompressed, some of the original data is lost. 
+3.  JPEG
+4.  In FAT systems, file data is stored in clusters that are referenced in a directory. When a file is deleted, the file's directory entry is first designated as available (by changing the filename's first character). Then, all the clusters containing the file data are moved to the list of "free" clusters. Thus, the segments of memory that actually contain the file data are essentially untouched. These segments simply become designated as available to the system to be overwritten.
+5.  Overwrite your data/hard drive a couple times with random data. 
+6.  stdint.h is a header file in the C standard library that declares various integer types with exact "widths" (i.e. number of bits used to store a value) specified by the user. It allows the user to have greater control over exactly how memory is allocated, which is useful when writing code that might be used on different machines/systems.
+7.  These integer types allow the programmer to specify exact memory storage "widths" in binary for various data, making it unambiguous how many bits are used in the storage of an integer. It affords precise control of how data is stored and sequenced in memory.
+8.  Sizes are as follows: BYTE = 1 byte; DWORD = 4 bytes; LONG = 4 bytes; WORD = 2 bytes.
+9.  The first two bytes of any BMP file must be "BM" (in ASCII).
+10. bfSize specifies the size (in bytes) of the entire BMP file, while biSize specifies the size (in bytes) of the BITMAPINFOHEADER struct.
+11. The sign of biHeight specifies the image's orientation. If biHeight is negative, it means the BMP is "top-down," which means that the image specification starts in memory with the top-left pixel of the image. In this case, the first row in memory corresponds to the top row of the image and works its way consecutively to the bottom image, ending with the bottom right pixel.
+12. Color depth is specified by biBitCount.
+13. fopen might return NULL if there is insufficient memory to store the file.
+14. Every time fread is called in copy.c, it is grabbing the exact chunk of data needed based on the size of the desired element. The third argument specifies how many "blocks" will be read in each time the function is called, and in our code, each "block" is set to the exact size of the element we need to read at that point, so we only need to read one block. For instance, when fread obtains the entire BITMAPFILEHEADER element of the input file, the size of BITMAPFILEHEADER is specified exactly, so it only needs to read into that section of data once to get the entire header (the same is true for BITMAPINFOHEADER and each RGBTRIPLE).
+15. The value of padding would be 3.
+16. fseek effectively allows you to move around your position within a file. By providing an "offset," fseek allows you to shift the file pointer location a certain distance from a specified reference point, so that you can navigate to desired sections of a file.
+17. SEEK_CUR indicates the current file position being accessed at any given time. Where it is used in copy.c, SEEK_CUR would specify that you have just read the the last pixel in a given row of a given scanline in the input file, right before you hit any padding.
+18. Rick Astley!

@@ -1,0 +1,72 @@
+<!--
+
+form-1.html
+
+A form with client-side validation.
+
+David J. Malan
+malan@harvard.edu
+
+-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>form-1</title>
+    </head>
+    <body>
+        <form action="register.php" id="registration" method="get">
+            Email: <input name="email" type="text"/>
+            <br/>
+            Password: <input name="password" type="password"/>
+            <br/>
+            Password (again): <input name="confirmation" type="password"/>
+            <br/>
+            I agree to the terms and conditions: <input name="agreement" type="checkbox"/>
+            <br/><br/>
+            <input type="submit" value="Register"/>
+        </form>
+        <script>
+
+            var form = document.getElementById('registration');
+
+            // onsubmit
+            form.onsubmit = function() {
+
+                // validate email
+                if (form.email.value == '')
+                {
+                    alert('You must provide your email address!');
+                    return false;
+                }
+
+                // validate password
+                else if (form.password.value == '')
+                {
+                    alert('You must provide a password!');
+                    return false;
+                }
+
+                // validate confirmation
+                else if (form.password.value != form.confirmation.value)
+                {
+                    alert('Passwords do not match!');
+                    return false;
+                }
+
+                // validate agreement
+                else if (!form.agreement.checked)
+                {
+                    alert('You must agree to the terms and conditions!');
+                    return false;
+                }
+
+                // valid!
+                return true;
+
+            };
+
+        </script>
+   </body>
+</html>

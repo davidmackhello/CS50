@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AJAX</title>
+        <script src="https://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+        <script src="js/ajax.js" type="text/javascript"></script>
+        <link href="css/div.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2>AJAX Test</h2>
+        <div id="infodiv">
+            Information goes here
+        </div>
+        <div>
+            <form>
+                <select name="staff" onchange="cs50Info(this.value);">
+                    <option value="">Select someone:</option>
+                    <option value="blumberg">Hannah Blumberg</option>
+                    <option value="bowden">Rob Bowden</option>
+                    <option value="chan">Zamyla Chan</option>
+                    <option value="malan">David J. Malan</option>
+                </select>
+            </form>
+        </div>
+    </body>
+</html>

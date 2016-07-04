@@ -1,0 +1,6 @@
+./speller texts/austinpowers.txt > studentb.txt
+./speller texts/christmas.txt >> studentb.txt
+./speller texts/daffodils.txt >> studentb.txt
+./speller texts/kjv.txt >> studentb.txt
+./speller texts/shakespeare.txt >> studentb.txt
+./speller texts/ulysses.txt >> studentb.txt
