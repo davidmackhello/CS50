@@ -7,14 +7,9 @@
     <li>My second bullet</li>
 </ul>
 
-        <div id="d1" class="indent">
+        <div id="d1">
             hello
-            
-            <div class="indent">
-                there
-            </div>
         </div>
-             
         <div id="d2">
             darkness
         </div>
