@@ -1,0 +1,38 @@
+[
+    {
+        category: "Construction and Building Technologies",
+        areas: [
+            "Any technologies relevant to the construction space: next-generation building materials, products, and solutions",
+            "Acoustic technologies for noise control or cancellation and reducing sound transmission, room-to-room (physical or software-based solutions)",
+            "Technologies that improve building fire resistance performance",
+            "Products, systems, or services to improve indoor or outdoor air quality, with focus on removing pollution and avoiding product emissions",
+            "Surface-based technologies applicable to building construction (e.g. IoT/sensor products that leverage surface area in new ways)"
+        ]
+    },
+    
+    {
+        category: "Industrial Technologies",
+        areas: [
+            "Wearable technologies with industrial focus (e.g. maintenance & repair, safety, worker productivity, building design)",
+            "Products/platforms/systems that reduce complexity, time or cost and/or direct labor in building construction for new or repair-and-remodel processes"
+        ]
+    },
+    
+    {
+        category: "IT/Data/E-Commerce",
+        areas: [
+            "Tools that combine internal retail data with external commercial/residential data to deliver smart insights (advanced forecasting, demand prediction, predictive analytics, etc.)",
+            "Innovative product catalog and knowledge management platforms: centralizing product information, installation guides/assistance, technical support, and purchasing options for construction products (focus on mobile)",
+            "Digital tools to assist contractors and distributors on construction jobsite in realtime (product support, driving repeat purchase behavior and incentives, etc.)",
+            "Innovative mobile/web/UX-UI development companies that build custom enterprise applications"
+        ]
+    },
+    
+    {
+        category: "Other",
+        areas: [
+            "Any innovative technology from outside industries that could be applied or integrated to the construction/remodeling/building solutions space",
+            "New products and systems developed for the built environment with a focus on solutions for space management and re-configuration (i.e. micro-apartments, multi-use spaces, alternative residences, etc.)"
+        ]
+    }
+]

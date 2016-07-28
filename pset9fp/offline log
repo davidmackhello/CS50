@@ -1,0 +1,2 @@
+1. added offline copies of bootstrap and jquery - can remove files and <links> from final code (commented out CDNs)
+2. need to add underscore

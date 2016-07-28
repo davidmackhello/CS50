@@ -20,3 +20,60 @@
 {
     margin-bottom: 175px;
 }
+
+.adminform
+{
+    margin: 0 auto;
+    width: 75%;
+}
+
+.shortfield
+{
+    width: 45%;
+}
+
+.medfield
+{
+    width: 80%;
+}
+
+#addblockcontrol
+{
+    margin-bottom:25px;
+}
+
+.addbulletcontrol
+{
+    margin-bottom:10px;
+}
+
+.noborder
+{
+    border:0;
+    box-shadow: none;
+}
+
+.blockmargin
+{
+    margin-bottom:10px;
+}
+
+.catfield
+{
+    font-weight:bold;
+}
+
+.glyphicon.form-control-feedback
+{
+    right: 60px;
+}
+
+.hidefirst
+{
+    display:none;
+}
+
+.catshift
+{
+    right:12px;
+}
