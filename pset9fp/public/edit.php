@@ -4,7 +4,7 @@
     require("../includes/config.php");
     
     // ensure proper usage
-    if (isset($_GET["sheet"]) && isset($_GET["partner"]) && $_GET["partner"] !== "" && isset($_GET["logo"]) && $_GET["logo"] !== "")
+    if (isset($_GET["sheet"]))
     {
         // create array for json file names and bool to test for match
         $sheetnames = [];
@@ -30,22 +30,32 @@
             exit;
         }
     }
-    
     else
     {
         http_response_code(400);
         exit;
     }
-
-    // retrieve json string from requested sheet
+    
+    // retrieve json data for given sheet
     $json = file_get_contents("../json/{$_GET["sheet"]}.json");
 
     // decode json string into associative array
     $items = json_decode($json, TRUE);
-
+    
     // remove first object (contains sheet info) from array
     $sheetinfo = array_shift($items);
-
-    // render list view and referral form for partners
-    render("list.php", ["partner" => $_GET["partner"], "sheetinfo" => $sheetinfo, "items" => $items, "logo" => $_GET["logo"]]);
+    
+    // create and fill array that counts # of bullets to add for each block
+    $blocknum = [];
+    foreach ($items as $item)
+    {
+        $blocknum[] = count($item["areas"]);
+    }
+    
+    // retrieve html for block section of admin form (generates 1 block with 1 bullet)
+    $bullethtml = file_get_contents("../views/bullet.php");
+    $blockhtml = file_get_contents("../views/blocktop.php").$bullethtml.file_get_contents("../views/blockbottom.php");
+    
+    // render admin form (edit view)
+    render("build-edit-form.php", ["blocknum" => $blocknum, "sheetinfo" => $sheetinfo, "items" => $items, "slug" => $_GET["sheet"], "blockhtml" => $blockhtml, "bullethtml" => $bullethtml]);
 ?>

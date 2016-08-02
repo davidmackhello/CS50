@@ -1,14 +1,11 @@
 /*global $*/
 
 /**
- * scripts.js
+ * sheetscripts.js
  *
- * js scripts for referral pages
+ * js scripts for front-end referral sheets
  *
- * 
  */
-
-
 
 // execute when the DOM is fully loaded
 $(function() {

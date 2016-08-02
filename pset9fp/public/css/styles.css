@@ -1,12 +1,29 @@
+body
+{
+    font-size:15px;
+}
+
+.bodycolor
+{
+    background:#f4f4f4;
+}
+
+.darkhr 
+{
+    border-style: inset;
+    border-width: 1px;
+}
+
 #entrybar
 {
-    background:#f1f1f1;
+    background:#373b3c;
     bottom:0;
     min-height:100px;
     padding:0;
     width:100%;
     position:fixed;
     z-index:100;
+    color: white;
 }
 
 .entryform
@@ -36,6 +53,12 @@
 {
     width: 80%;
 }
+
+.lgfield
+{
+    width: 90%;
+}
+
 
 #addblockcontrol
 {
@@ -76,4 +99,50 @@
 .catshift
 {
     right:12px;
+}
+
+#middle
+{
+    margin-bottom:30px;
+}
+
+.container 
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.adminrow
+{
+    margin-bottom: 30px;
+}
+
+#linkbar
+{
+    background:#373b3c;
+    bottom:0;
+    min-height:100px;
+    padding:0;
+    width:100%;
+    position:absolute;
+    z-index:100;
+    color: white;
+}
+
+#sheetselect
+{
+    margin-right:15px;
+}
+
+#logo
+{
+    margin-top:35px;
+    width:300px;
+}
+
+.inline-space
+{
+    margin-right:10px;
 }

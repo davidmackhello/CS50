@@ -11,12 +11,12 @@
         
         <!-- Bootstrap Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        
+
         <!-- app CSS -->
         <link href="/css/styles.css" rel="stylesheet"/>
         
         <!-- app JavaScript -->
-        <script src="/js/scripts.js"></script>
+        <script src="/js/sheetscripts.js"></script>
         
         <?php if (isset($sheetinfo)): ?>
             <title><?= htmlspecialchars($sheetinfo['name']) ?></title>
@@ -29,27 +29,35 @@
     <div class="device-md visible-md"></div>
     <div class="device-lg visible-lg"></div>
     
-    <body>
+    <body class="bodycolor">
         <div class="container-fluid mar-bottom">
         <div class="row">
             <div class="col-xs-12" id="shoplist">
                 
-                <div id="top">
+                <div id="top" class="col-xs-12 col-md-9">
+                    <div class="lgfield">
                         <?php if (isset($partner) && isset($sheetinfo)): ?>
-                            <h1><?= htmlspecialchars($sheetinfo['name']) ?>: <?= htmlspecialchars($partner) ?> Referrals</h1>
+                            <h1><?= htmlspecialchars($sheetinfo['name']) ?></h1>
+                            <h3><?= htmlspecialchars($partner) ?> Referrals</h3>
                         <?php endif ?>
                         
                         <?php if (isset($sheetinfo)): ?>
                             <p><em><?= htmlspecialchars($sheetinfo['text']) ?></p></em>
                         <?php endif ?>
+                    </div>
                 </div>
-                <hr>
-                <div id="middle">
-
+                <div class="col-xs-12 col-md-3">
+                    <?php if ($logo != "none"): ?>
+                        <img id="logo" src="img/<?= htmlspecialchars($logo) ?>.png" />
+                    <?php endif ?>
+                </div>
+                <div id="middle" class="col-xs-12">
+                    <hr class="darkhr">
                         <?php if (isset($items)): ?>
                         <?php foreach ($items as $item): ?>
                             <h2><?= htmlspecialchars($item['category']) ?></h2>
                             <ul><li><?= implode('</li><li>', $item['areas']) ?></li></ul>
+                            <hr class="darkhr">
                         <?php endforeach ?>
                         <?php endif ?>
                 </div>
@@ -60,22 +68,22 @@
                 <div class="entryform">
                     <form class="form-inline">
                         
-                        <div class="form-group">
-                        <label for="startup">Company Name</label>
+                        <div class="form-group inline-space">
+                        <label for="startup">Company Name: </label>
                         <input type="text" class="form-control" id="startup" placeholder="StartupX">
                         </div>
                         
-                        <div class="form-group">
-                        <label for="name">Contact</label>
+                        <div class="form-group inline-space">
+                        <label for="name">Contact: </label>
                         <input type="text" class="form-control" id="name" placeholder="Jane Doe">
                         </div>
                         
-                        <div class="form-group">
-                        <label for="email">Email</label>
+                        <div class="form-group inline-space">
+                        <label for="email">Email: </label>
                         <input type="email" class="form-control" id="email" placeholder="jane@startupx.com">
                         </div>
                         
-                        <button type="submit" class="btn btn-primary">Refer</button>
+                        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add referral</button>
     
                     </form>
                 </div> <!-- .entryform -->
