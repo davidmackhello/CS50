@@ -30,7 +30,7 @@ body
 {
     text-align: center;
     margin-top: 25px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .mar-bottom
@@ -65,7 +65,8 @@ body
     margin-bottom:25px;
 }
 
-.addbulletcontrol
+.addbulletcontrol, 
+.blockmargin
 {
     margin-bottom:10px;
 }
@@ -76,10 +77,6 @@ body
     box-shadow: none;
 }
 
-.blockmargin
-{
-    margin-bottom:10px;
-}
 
 .catfield
 {
@@ -101,6 +98,7 @@ body
     right:12px;
 }
 
+.adminrow,
 #middle
 {
     margin-bottom:30px;
@@ -114,11 +112,6 @@ body
 
 }
 
-.adminrow
-{
-    margin-bottom: 30px;
-}
-
 #linkbar
 {
     background:#373b3c;
@@ -126,7 +119,7 @@ body
     min-height:100px;
     padding:0;
     width:100%;
-    position:absolute;
+    position:fixed;
     z-index:100;
     color: white;
 }
@@ -145,4 +138,55 @@ body
 .inline-space
 {
     margin-right:10px;
+}
+
+.test
+{
+    text-align: left;
+}
+
+.adminbox
+{
+    margin-top:25px;
+}
+
+.adminbox.glyphicon
+{
+    font-size:75px;
+}
+
+#deletesheet
+{
+    display:none;
+}
+
+.alert
+{
+    position:fixed;
+    z-index:200;
+    width:100%;
+    text-align:center;
+    display:none;
+}
+
+.modal-body
+{
+    text-align:center;
+}
+
+#reftable
+{
+    text-align:left;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.coolcolor
+{
+    background-color:#F3F9FE;
+}
+
+.remref
+{
+    color:red;
 }

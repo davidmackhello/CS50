@@ -68,7 +68,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="description">Sheet Description</label>
-                                <textarea class="form-control" id="description" rows="3" placeholder="Enter instructions for your referral partners here">Please scroll through the technology areas listed below, and use the form at the bottom to suggest any early-stage companies in your network that might be a good fit. If you have any questions, contact David Machajewski at dmachajewski@istcoalition.org.</textarea>
+                                <textarea class="form-control" id="description" rows="3" placeholder="Enter instructions for your referral partners here">Please scroll through the technology areas listed below, and submit any companies that you think might be a good fit using the 'Add Referral' fields. When you are done adding companies, click 'Review & Submit.' If you have any questions, contact David Machajewski at dmachajewski@istcoalition.org.</textarea>
                                 <small class="text-muted control-label">These are the instructions your referral partner will see.</small>
                             </div>
                         </div> <!-- #infofields -->
@@ -93,6 +93,7 @@
                         ?>
                         </div> <!-- #addblockshere -->
                     <button type="submit" id="mysubmit" class="btn btn-primary">Submit</button>
+                    <button id="deletesheet" class="btn btn-danger">Delete Sheet</button>
                     </form>
                 </div> <!-- #adminform -->
             </div> <!-- #middle -->

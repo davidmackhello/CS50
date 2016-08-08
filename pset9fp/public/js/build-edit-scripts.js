@@ -1,4 +1,4 @@
-/*global $*/
+/*global $ sheetinfo slug items blockHTML bulletHTML*/
 
 /**
  * build-edit-scripts.js
@@ -53,6 +53,9 @@ $(function() {
     // in edit mode, this step (custom formatting) will be executed because 'items' will be defined
     if (typeof items !== 'undefined')
     {
+        //show edit button at bottom of form
+        $("#deletesheet").show();
+        
         // populate sheet title
         $("#title").val(sheetinfo.name);
 
@@ -292,7 +295,7 @@ $(function() {
             })
 
             // if successful
-            .done(function(html) {
+            .done(function() {
                     $('form').areYouSure( {'silent':true} );
                     window.location.replace("/admin.php");
                   })
@@ -304,6 +307,52 @@ $(function() {
                     console.log( "Status: " + status );
                     console.dir( xhr );
             });
+        }
+    });
+    
+    // set behavior for delete sheet button, first warning user
+    $("#deletesheet").on("click", function(e){
+    
+        // prevent form submit
+        e.preventDefault();
+        
+        // confirm delete action with warning alert
+        var warn = confirm("Are you sure you want to delete this sheet? This cannot be undone.");
+        
+        // if user confirms
+        if (warn == true) 
+        {
+
+            // initiate ajax request delete sheet from server
+            $.ajax({
+
+                url: "json-io.php",
+
+                data: {
+                    purpose: "delete",
+                    slug: slug
+                },
+
+                type: "POST",
+
+                dataType : "html"
+            })
+
+            // if successful
+            .done(function() {
+                    $('form').areYouSure( {'silent':true} );
+                    console.log("it's been deleted");
+                    window.location.replace("/admin.php");
+                  })
+
+            // if failure
+            .fail(function( xhr, status, errorThrown ) {
+                    alert( "Server Error" );
+                    console.log( "Error: " + errorThrown );
+                    console.log( "Status: " + status );
+                    console.dir( xhr );
+            });
+                
         }
     });
     

@@ -30,7 +30,25 @@
     <div class="device-lg visible-lg"></div>
     
     <body class="bodycolor">
+        <div id="refalert" class="alert" role="alert"></div>
         <div class="container-fluid mar-bottom">
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header coolcolor">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Confirm your referrals</h4>
+                        </div>
+                        <div id="inthemodal" class="modal-body">
+                        <em>You haven't referred any startups yet!</em>
+                        </div>
+                        <div class="modal-footer coolcolor">
+                            <button type="button" class="btn btn-link" data-dismiss="modal">Go back</button>
+                            <button type="button" class="btn btn-success">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         <div class="row">
             <div class="col-xs-12" id="shoplist">
                 
@@ -48,7 +66,7 @@
                 </div>
                 <div class="col-xs-12 col-md-3">
                     <?php if ($logo != "none"): ?>
-                        <img id="logo" src="img/<?= htmlspecialchars($logo) ?>.png" />
+                        <a href="<?= ($logo == "csc") ? "http://www.illinoisinnovation.com/corporate-startup-challenge" : "http://freshwateradvisors.com/" ?>" target="_blank"><img id="logo" src="img/<?= htmlspecialchars($logo) ?>.png" /></a>
                     <?php endif ?>
                 </div>
                 <div id="middle" class="col-xs-12">
@@ -66,7 +84,7 @@
             
             <div id="entrybar" class="col-xs-12">
                 <div class="entryform">
-                    <form class="form-inline">
+                    <form id="referform" class="form-inline">
                         
                         <div class="form-group inline-space">
                         <label for="startup">Company Name: </label>
@@ -83,10 +101,13 @@
                         <input type="email" class="form-control" id="email" placeholder="jane@startupx.com">
                         </div>
                         
-                        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add referral</button>
-    
+                        <button id="addreferral" class="btn btn-danger"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add referral</button>
                     </form>
+                    <div class="adminbox">
+                        <button id="bigsubmit" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Review & Submit <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+                    </div>                    
                 </div> <!-- .entryform -->
+                
             </div> <!-- #entrybar -->
 
         </div> <!-- row -->

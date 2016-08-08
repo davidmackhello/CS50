@@ -22,24 +22,49 @@
 
     </head>
     
+    <div class="device-xs visible-xs"></div>
+    <div class="device-sm visible-sm"></div>
+    <div class="device-md visible-md"></div>
+    <div class="device-lg visible-lg"></div>
+    
     <body class="bodycolor">
-        <div class="container-fluid ">
+        <div class="container-fluid mar-bottom">
 
             <div id="top">
-                <h1>Admin Page</h1>
-                <p><em>This is the admin page</em></p>
+                <h1>Referral Form Manager</h1>
+                <p><em>Use this tool to create new shopping lists, manage existing lists, or add new referral sources. Use the bar at the bottom to generate a custom form for each of your referral partners.</em></p>
             </div>
             <hr class="darkhr">
-            <div id="middle">
+            <div id="middle" class="container">
+
+                <div class="col-xs-12 col-md-4">
+                    <div class="inline-space">
+                        <h2>Build new list</h2>
+                        <hr class="darkhr">
+                        <a href="build.php"><span class="glyphicon glyphicon-plus-sign adminbox" aria-hidden="true"></span></a>
+                    </div>
+                </div>
                 
-                <h2><a href="build.php">Build a new sheet</a></h2>
+                <div class="col-xs-12 col-md-4">
+                    <div class="inline-space">
+                        <h2>Edit existing lists</h2>
+                        <hr class="darkhr">
+                        <div class="list-group adminbox">
+                            <?php foreach ($sheetnames as $sheetname): ?>
+                                <a id="<?= htmlspecialchars($sheetname); ?>" href="edit.php?sheet=<?= htmlspecialchars($sheetname); ?>" class="list-group-item"><?= htmlspecialchars($sheetname); ?></a>
+                            <?php endforeach ?>
+                        </div>
+                    </div>
+                </div>
                 
-                <h3>Edit your sheets</h3>
-                <ul>
-                <?php foreach ($sheetnames as $sheetname): ?>
-                    <li><a href="edit.php?sheet=<?= htmlspecialchars($sheetname); ?>"><?= htmlspecialchars($sheetname); ?></a></li>
-                <?php endforeach ?>
-                </ul>
+                <div class="col-xs-12 col-md-4">
+                    <div class="inline-space">
+                        <h2>Add referral partner</h2>
+                        <hr class="darkhr">
+                        <a href="build.php"><span class="glyphicon glyphicon-send adminbox" aria-hidden="true"></span></a>
+                    </div>
+                </div>
+                
             </div>
         </div> <!-- container-fluid -->
         <div id="linkbar" class="col-xs-12">
@@ -47,16 +72,16 @@
                 <form>
                 <div class="col-xs-12 adminrow form-inline">
                     <div class="form-group">
-                        <label for="sheetselect">Select Sheet: </label>
+                        <label for="sheetselect">Choose your list: </label>
                         <select id="sheetselect">
-                             <option selected disabled>Select sheet</option>
+                             <option selected disabled>Select list</option>
                         <?php foreach ($sheetnames as $sheetname): ?>
                             <option value="<?= htmlspecialchars($sheetname); ?>"><?= htmlspecialchars($sheetname); ?></option>
                         <?php endforeach ?>
                         </select>
                     </div>
                     <div class="form-group inline-space">
-                        <label for="partnerselect">Select Partner: </label>
+                        <label for="partnerselect">Who is it for?: </label>
                         <select id="partnerselect">
                             <option selected disabled>Select partner</option>
                             <option value="Northwestern University">Northwestern University</option>

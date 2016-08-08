@@ -153,3 +153,8 @@
 [28-Jul-2016 05:36:12 UTC] PHP Stack trace:
 [28-Jul-2016 05:36:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/formbuild.php:0
 [28-Jul-2016 05:36:12 UTC] PHP   2. fwrite() /home/ubuntu/workspace/CS50/pset9fp/public/formbuild.php:9
+[06-Aug-2016 18:24:17 UTC] PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/CS50/pset9fp/includes/config.php on line 23
+[06-Aug-2016 18:24:17 UTC] PHP Stack trace:
+[06-Aug-2016 18:24:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/index.php:0
+[06-Aug-2016 18:24:17 UTC] PHP   2. require() /home/ubuntu/workspace/CS50/pset9fp/public/index.php:4
+[06-Aug-2016 18:24:17 UTC] PHP   3. session_start() /home/ubuntu/workspace/CS50/pset9fp/includes/config.php:23

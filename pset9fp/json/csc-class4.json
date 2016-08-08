@@ -1,0 +1,104 @@
+[
+    {
+        "name": "Corporate-Startup Challenge: Class 4",
+        "text": "Please scroll through the technology areas listed below, and submit any companies that you think might be a good fit using the 'Add Referral' fields. When you are done adding companies, click 'Review & Submit.' If you have any questions, contact David Machajewski at dmachajewski@istcoalition.org."
+    },
+    {
+        "category": "IoT\/Sensor Technology",
+        "areas": [
+            "Vehicle sensor technology: leveraging sensor data and analytics to determine conditions in automobiles (e.g. vehicle speed, driver state, collision detection, etc.)",
+            "Home metering and connected home technologies",
+            "Sensors for residential loss\/damage prevention (e.g. detecting and preventing sewer backup\/flooding) and reducing liability",
+            "Biometric sensing technologies to monitor industrial worker health, safety, and alertness",
+            "Sensor technologies to monitor potentially hazardous industrial environments",
+            "Bluetooth, Low Energy Beacon, and IoT platforms with industrial\/manufacturing applications",
+            "IoT\/logistical technologies to understand status of industrial inventory in real-time (i.e. creating \"smart cribs\" that sense part weight, color, image, volume, etc.)",
+            "Mobile\/handheld\/\"in-the-field\" sensor solutions for oil\/gas industry",
+            "Virtual sensing systems: software-based sensing networks that perform context-based predictive analytics"
+        ]
+    },
+    {
+        "category": "Data Analytics",
+        "areas": [
+            "Tools for understanding customer voice\/feedback data, realtime sentiment analysis and response",
+            "Artificial Intelligence\/Machine Learning\/Natural Language Processing technologies to parse documents for pattern recognition and decision-making",
+            "Customer individualization and CRM: tools to develop refined view of customer segments based on preferences\/behavior",
+            "Voice recognition and translation technologies for customer communications",
+            "Social listening tools with specific use cases for insurance applications (assessing weather, accidents, damage, etc.)",
+            "Big data analytics\/Business Intelligence\/Operational Intelligence software and services with industrial focus (e.g. improving worksite productivity, predicting trends)",
+            "Digitizing human expertise: collaboration platforms to centralize\/crowdsource institutional knowledge (e.g. product documentation, customer troubleshooting, and equipment support)",
+            "Advanced video analytics: extracting information from video sources and parsing visual data - Later-stage\/Post-revenue",
+            "Mobile\/\"distributed\" analytics: technologies to analyze data on remote equipment (i.e. on-device analytics) without transmitting to cloud in low-connectivity areas"
+        ]
+    },
+    {
+        "category": "App Development",
+        "areas": [
+            "Web and mobile tools to automate auto\/home\/property insurance claims processes and services (streamlining customer\/internal communication, logistics, and tasks)",
+            "Tools to track incidents (e.g. weather, accident, natural disaster) that require insurer-customer interactions",
+            "Weather prediction and weather damage assessment technologies",
+            "Digital and virtual solutions for education-based marketing (e.g. content repositories, learning portals, etc.)",
+            "Geolocation\/location-based tools for route assistance, accident avoidance, and industrial safety",
+            "Remote collaboration tools (e.g. telepresence, remote connection, virtual presence)",
+            "\"Intelligent Assistant\" technologies (e.g. AI and Cognitive Computing) that streamline technical assistance for product support, repair services, sales, and marketing - Later-stage\/Post-revenue",
+            "\"Industrial gamification\" solutions: app\/game-style tools for machine operators, supply chain managers, etc."
+        ]
+    },
+    {
+        "category": "Financial Technology & E-Commerce",
+        "areas": [
+            "Payment solutions to streamline transactions between vendors, financial institutions and consumers",
+            "Innovative E-Commerce platforms, e.g. personalization, POS decision support, shipping\/pickup solutions (industrial\/B2B focus)",
+            "Mobile shopping technologies - including mobile peripherals (industrial\/B2B focus)",
+            "\"Seamless reordering\" - allowing customers to automatically place orders at point-of-need, and predictive reordering based on buying patterns (industrial\/B2B focus)",
+            "\"Smart\" technologies (Augmented Reality, AI, beacons, location-based) for improving customer digital\/in-store shopping experience",
+            "Next-generation web\/mobile\/UX\/UI tools to improve digital experience\/conversions and reach customers early in buying cycle",
+            "Disruptive E-Commerce payment technologies",
+            "Innovative product catalog platforms for customers and internal sales teams (industrial\/B2B focus)"
+        ]
+    },
+    {
+        "category": "Imaging Technologies",
+        "areas": [
+            "Hardware\/software\/algorithmic tools for damage inspection (automobile, home, and property), including 3D scanning, augmented reality, computer vision, and cognitive\/quantum computing models",
+            "Geospatial and topographic mapping technologies to track dynamic mining\/construction sites over time",
+            "Advanced 3D visualization technologies - Later-stage\/Post-revenue"
+        ]
+    },
+    {
+        "category": "Industrial Technologies",
+        "areas": [
+            "Digital facility management solutions",
+            "Industrial equipment monitoring, performance tracking, and preventative maintenance technologies",
+            "Cloud-based computerized maintenance management systems (CMMS)",
+            "Industrial workplace tools for risk mitigation, injury prevention, and safety compliance management",
+            "Wearable and Augmented Reality technologies with industrial focus (e.g. maintenance\/repair, safety, construction, manufacturing, worker training and productivity)",
+            "Industrial inventory management and warehouse logistics technologies (part orders\/replacements, storage, vending\/dispensing solutions)",
+            "AI and Cognitive Computing technologies for advanced robotics, machine-machine communications, and worksite operations",
+            "High power density electric drives, motors, and controls for mobile industrial equipment",
+            "Next-generation machine perception and positioning technologies",
+            "\"System of Systems\" technologies and platforms (including aviation, transportation, or manufacturing industry applications): advanced control\/integration systems for machine fleets",
+            "Early-stage robotics companies that can help solve industrial\/manufacturing\/construction problems",
+            "Tools to digitially map\/catalog properties of earth\/dirt (e.g. hardness, density, moisture, composition) globally"
+        ]
+    },
+    {
+        "category": "Materials Science\/Digital Manufacturing",
+        "areas": [
+            "Innovative materials and repair methodologies for insurance-relevant properties (e.g. hail-resistant roofing, water mitigation, shingles, siding, flooring, etc.)",
+            "3D printing technologies and materials for printing buildings and large structures",
+            "3D printing platforms for printing metal parts that retain metallurgical properties of traditional parts (i.e. not just same size\/shape)",
+            "3D printing file transfer and file safety protocols",
+            "3D printing solutions for resurfacing worn industrial parts with superior functionality and wear-resistance - Later-stage\/Post-revenue",
+            "Innovative modular construction technologies and practices",
+            "Unique coating technologies with manufacturing\/construction applications - Later-stage\/Post-revenue",
+            "Scalable enterprise-wide 3D printing solutions and technology to monitor\/improve 3D printing process\/quality control"
+        ]
+    },
+    {
+        "category": "Wildcard",
+        "areas": [
+            "Please list here any companies that you feel would be particularly strong fits for Allstate, Caterpillar, or Grainger, even if they do not align with one of the areas above"
+        ]
+    }
+]

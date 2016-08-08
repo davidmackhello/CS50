@@ -20,7 +20,8 @@
         closedir($handle);
     }
     
-    // render admin page
+    // sort array and render admin page
+    asort($sheetnames);
     render("adminpage.php", ["sheetnames" => $sheetnames]);
     
 ?>

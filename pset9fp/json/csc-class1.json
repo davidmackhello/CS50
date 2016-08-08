@@ -1,0 +1,131 @@
+[
+    {
+        "name": "Corporate-Startup Challenge: Class 1",
+        "text": "Please scroll through the technology areas listed below, and submit any companies that you think might be a good fit using the 'Add Referral' fields. When you are done adding companies, click 'Review & Submit.' If you have any questions, contact David Machajewski at dmachajewski@istcoalition.org."
+    },
+    {
+        "category": "App Development",
+        "areas": [
+            "Mobile connectivity, responsive design, UX\/UI, interoperability of devices (insurance industry) - All stages",
+            "Telematics: consumer-vehicle communications, onboard diagnostics, and consumer-device relationships (insurance industry) - All stages",
+            "Increase customer interaction through mobile devices (consumer\/health product retail) - Later stage, post-revenue",
+            "Improve customer engagement and increase connectivity with clinicians (consumer\/health product retail) - Later stage, post-revenue"
+        ]
+    },
+    {
+        "category": "3D Printing\/Rapid Prototyping",
+        "areas": [
+            "Automated 3D printing\/imaging (various industry sectors) - All stages",
+            "Plated plastics, molding materials (consumer electronics, agricultural equipment) - All stages",
+            "Prototype tooling (agricultural equipment) - Later stage, post-revenue",
+            "Processes and tools for mass production - All stages",
+            "External facility development, including automated\/robotic systems - Early stage"
+        ]
+    },
+    {
+        "category": "Battery\/Power Management",
+        "areas": [
+            "Power electronics\/inverters (circuit boards) - All stages",
+            "Batteries + energy storage: focus on cost reduction (circuit connectivity and farm\/agricultural equipment) - All stages",
+            "Alternative methods of energy capture, including motors and non rare-earth technology - All stages",
+            "Nanomaterials for more effiecient heat transfer (farm\/agriculturial equipment) - All stages",
+            "Battery-driven device longevity, efficiency and size - All stages"
+        ]
+    },
+    {
+        "category": "Consumer-Machine Communications",
+        "areas": [
+            "Devices or systems to prevent\/ respond to security or weather events - Later stage, post-revenue",
+            "Consumer communications in automotive, manufacturing processes - Early stage"
+        ]
+    },
+    {
+        "category": "Cyber Security",
+        "areas": [
+            "Data discovery, external customer communications protection (insurance industry) - Later stage, post-revenue",
+            "Internal system data protection (insurance industry) - Later stage, post-revenue",
+            "Companies that understand vulnerabilities, threat detection\/vulnerability modeling (insurance industry) - Later stage, post-revenue",
+            "Privacy\/authentication systems - Later stage, post-revenue"
+        ]
+    },
+    {
+        "category": "Data Analytics",
+        "areas": [
+            "\u201cBig Data\u201d: addressing volume, unstructured data, speed, and format of new flows of information that is produced both internally and through 3rd party analytics (insurance industry) - All stages",
+            "Understanding customer behavior\/consumer needs through predictive analtyics (insurance industry) - All stages",
+            "Analyzing risk, fraud detection and prevention (insurance industry) - All stages",
+            "Skills\/tools to filter low quality data and transform it into actionable items (insurance industry) - All stages",
+            "Marketing innovation through data analtyics (consumer\/health products retail) - Later stage, post-revenue",
+            "Reducing overall usage of consumer data (consumer\/health products retail) - Later stage, post-revenue",
+            "Minority\/bilingual market communication + analysis (consumer\/health products retail) - Later stage, post-revenue"
+        ]
+    },
+    {
+        "category": "Digital Imaging",
+        "areas": [
+            "Device interface resolution",
+            "Virtual reality systems - Later stage, post-revenue"
+        ]
+    },
+    {
+        "category": "E-Commerce",
+        "areas": [
+            "Attribution across channels, measuring the influence of online and in-person marketing to customers on sales (consumer\/health product retail) - Later stage, post-revenue",
+            "Minority\/bilingual market communication + analysis (c onsumer\/health product retail) - Later stage, post-revenue"
+        ]
+    },
+    {
+        "category": "Hardware\/Devices",
+        "areas": [
+            "Robotics, prosthetics\/ exoskeletons (electronics industry) - All stages",
+            "Diagnostic testing (various industries) - All stages",
+            "Global telemedicine\/home health (electronics industry) - All stages",
+            "Plated plastics, molding materials (electronics industry) - All stages",
+            "Electronic systems (various industries) - All stages",
+            "Wearable devices (consumer electronics) - All stages"
+        ]
+    },
+    {
+        "category": "Health + Wellness",
+        "areas": [
+            "Connect with consumers and advance tools to drive health outcomes - Later stage, post-revenue",
+            "Leverage stores to affect healthcare delivery -- extend reach of personnel into community, Digital tools for clinicians - Later stage, post-revenue",
+            "Performance management on systemwide savings due to better patient compliance - Later stage, post-revenue"
+        ]
+    },
+    {
+        "category": "Machine-Machine Communications (Agricultural equipment)",
+        "areas": [
+            "Machine Learning applications - All stages",
+            "Safety technology - All stages",
+            "Machine database management - All stages",
+            "Worksite communication services - All stages",
+            "Data\/notifications on crop management - All stages",
+            "Soil\/environmental analysis - All stages"
+        ]
+    },
+    {
+        "category": "Materials and Material Science",
+        "areas": [
+            "Thin film, semiconductor materials, electro-mechanical materials, coatings, composites, etc. - All stages"
+        ]
+    },
+    {
+        "category": "Sensors",
+        "areas": [
+            "Technology to allow consumer controls of home\/vehicle through devices - Later stage, post-revenue",
+            "Information communication related to agriculture - All stages",
+            "Environmental (plant health, operational conditions) - All stages",
+            "Mining technology for air, earth quality, explosive systems - Early stage",
+            "Wearable devices - All stages"
+        ]
+    },
+    {
+        "category": "UX\/UI (agriculturial equipment)",
+        "areas": [
+            "Monitoring intangible impressions of a user on a piece of equipment - Later stage, post-revenue",
+            "Identifying human factors that research tools can track to improve operations - Later stage, post-revenue",
+            "Virtual\/augmented reality systems - Later stage, post-revenue"
+        ]
+    }
+]

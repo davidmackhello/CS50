@@ -37,6 +37,7 @@
                 // write json blob to file.
                 if ((fwrite($jsonfile, json_encode($_POST["blob"], JSON_PRETTY_PRINT))) === FALSE) 
                 {
+                    fclose($jsonfile);
                     http_response_code(400);
                     exit;
                 }
@@ -44,15 +45,26 @@
                 // on successful write
                 else
                 {
-                    header("Content-type: text/html");
-                    print("Your sheet was created successfully!");
+                    fclose($jsonfile);
+                    http_response_code(200);
+                    exit;
                 }
             }
             else
             {
+                fclose($jsonfile);
                 http_response_code(400);
                 exit;
             }
+        }
+        
+        // request for writing new .json files
+        else if ($_POST["purpose"] == "delete")
+        {
+            // delete sheet
+            unlink("../json/".$_POST["slug"].".json");
+            http_response_code(200);
+            exit;
         }
     }
     
