@@ -18,6 +18,15 @@
         <!-- app JavaScript -->
         <script src="/js/adminscripts.js"></script>
         
+        <!-- https://github.com/twitter/typeahead.js/ -->
+        <script src="/js/typeahead.jquery.min.js"></script>
+        
+        <!-- http://underscorejs.org/ -->
+        <script src="/js/underscore-min.js"></script>
+        
+        <!-- obtain partners array for typeahead -->
+        <script> var partners = <?php echo json_encode($partners) ?>;</script>
+        
         <title>Admin</title>
 
     </head>
@@ -28,7 +37,29 @@
     <div class="device-lg visible-lg"></div>
     
     <body class="bodycolor">
+        <div id="partneralert" class="alert alert-warning" role="alert">That referral partner already exists!</div>
         <div class="container-fluid mar-bottom">
+            <div class="modal fade" id="partnermodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header coolcolor">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Add a referral partner</h4>
+                        </div>
+                        <form id="newrefer" action="admin.php" method="post">
+                        <div class="modal-body">
+                            <h4>New Partner:</h4>
+                            <div class="spaceout">
+                                <input type="text" class="form-control" id="oldham" name="oldham" placeholder="Partner Name">
+                            </div>
+                        </div>
+                        <div class="modal-footer coolcolor">
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
 
             <div id="top">
                 <h1>Referral Form Manager</h1>
@@ -61,7 +92,7 @@
                     <div class="inline-space">
                         <h2>Add referral partner</h2>
                         <hr class="darkhr">
-                        <a href="build.php"><span class="glyphicon glyphicon-send adminbox" aria-hidden="true"></span></a>
+                        <a data-toggle="modal" data-target="#partnermodal"><span class="glyphicon glyphicon-send adminbox" aria-hidden="true"></span></a>
                     </div>
                 </div>
                 
@@ -84,8 +115,9 @@
                         <label for="partnerselect">Who is it for?: </label>
                         <select id="partnerselect">
                             <option selected disabled>Select partner</option>
-                            <option value="Northwestern University">Northwestern University</option>
-                            <option value="Catapult">Catapult</option>
+                        <?php foreach ($partners as $partner): ?>
+                            <option value="<?= htmlspecialchars($partner["id"]); ?>"><?= htmlspecialchars($partner["partner"]); ?></option>
+                        <?php endforeach ?>
                         </select>
                     </div>
                     <div class="form-group inline-space">

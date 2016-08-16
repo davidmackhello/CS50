@@ -86,9 +86,8 @@ $(function() {
         $("button.savedit").html('<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>');
         $("button.savedit").parent().siblings("input").prop('readonly', true);
         $("button.savedit").closest("div.form-group").addClass("has-success");
-        
     }
-
+    
     // set click behavior for save/edit buttons and corresponding fields
     $(document).on('click', '.savedit', function(){
 

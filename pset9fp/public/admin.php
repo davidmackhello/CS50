@@ -2,6 +2,46 @@
 
     // configuration
     require("../includes/config.php");
+    
+    // Establish connection parameters for MySQL database
+    $host = "127.0.0.1";
+    $user = "machajew";
+    $pass = "";
+    $db = "finalproj";
+    $port = 3306;
+    
+    // connect to mySQL
+    $connection = mysqli_connect($host, $user, $pass, $db, $port) or die(mysql_error());
+    
+    // if post request (add new partner)
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST["oldham"]))
+    {
+        // escape new partner name
+        $string = mysqli_real_escape_string($connection, $_POST["oldham"]);
+        
+        // Insert new partner into database
+        $query = "INSERT INTO partners (partner) VALUES('$string')";
+        $result = mysqli_query($connection, $query);
+
+        // close connection
+        mysqli_close($connection);
+
+        // redirect back to admin.php with GET method
+        header("Location: admin.php");
+        exit;
+    }
+    
+    // retrieve all referral partners
+    $query = "SELECT * FROM partners ORDER BY partner";
+    $result = mysqli_query($connection, $query);
+    while ($row = mysqli_fetch_assoc($result)) 
+    {
+        $partners[] = $row;
+    }
+
+    // free result and close connection
+     mysqli_free_result($result);
+     mysqli_close($connection);
 
     // create array for json file names
     $sheetnames = [];
@@ -20,8 +60,10 @@
         closedir($handle);
     }
     
-    // sort array and render admin page
+    // sort array alphabetically
     asort($sheetnames);
-    render("adminpage.php", ["sheetnames" => $sheetnames]);
+    
+    // render admin page
+    render("adminpage.php", ["sheetnames" => $sheetnames, "partners" => $partners]);
     
 ?>

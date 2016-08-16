@@ -158,3 +158,1263 @@
 [06-Aug-2016 18:24:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/index.php:0
 [06-Aug-2016 18:24:17 UTC] PHP   2. require() /home/ubuntu/workspace/CS50/pset9fp/public/index.php:4
 [06-Aug-2016 18:24:17 UTC] PHP   3. session_start() /home/ubuntu/workspace/CS50/pset9fp/includes/config.php:23
+[15-Aug-2016 16:45:05 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/CS50/pset9fp/public/admin.php on line 64
+[15-Aug-2016 16:45:05 UTC] PHP Stack trace:
+[15-Aug-2016 16:45:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/admin.php:0
+[15-Aug-2016 16:45:05 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/CS50/pset9fp/public/admin.php:64
+[15-Aug-2016 16:45:05 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CS50/pset9fp/public/admin.php on line 66
+[15-Aug-2016 16:45:05 UTC] PHP Stack trace:
+[15-Aug-2016 16:45:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/admin.php:0
+[15-Aug-2016 16:45:05 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CS50/pset9fp/public/admin.php:66
+[15-Aug-2016 16:46:04 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/CS50/pset9fp/public/admin.php on line 63
+[15-Aug-2016 16:46:04 UTC] PHP Stack trace:
+[15-Aug-2016 16:46:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/admin.php:0
+[15-Aug-2016 16:46:04 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/CS50/pset9fp/public/admin.php:63
+[15-Aug-2016 16:46:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CS50/pset9fp/public/admin.php on line 65
+[15-Aug-2016 16:46:04 UTC] PHP Stack trace:
+[15-Aug-2016 16:46:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/admin.php:0
+[15-Aug-2016 16:46:04 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CS50/pset9fp/public/admin.php:65
+[15-Aug-2016 16:47:23 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/CS50/pset9fp/public/admin.php on line 64
+[15-Aug-2016 16:47:23 UTC] PHP Stack trace:
+[15-Aug-2016 16:47:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/admin.php:0
+[15-Aug-2016 16:47:23 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/CS50/pset9fp/public/admin.php:64
+[15-Aug-2016 16:47:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/CS50/pset9fp/public/admin.php on line 66
+[15-Aug-2016 16:47:23 UTC] PHP Stack trace:
+[15-Aug-2016 16:47:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/admin.php:0
+[15-Aug-2016 16:47:23 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CS50/pset9fp/public/admin.php:66
+[15-Aug-2016 16:48:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/admin.php on line 64
+[15-Aug-2016 16:48:43 UTC] PHP Stack trace:
+[15-Aug-2016 16:48:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/admin.php:0
+[15-Aug-2016 16:48:43 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CS50/pset9fp/public/admin.php:64
+[15-Aug-2016 16:50:32 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/CS50/pset9fp/public/admin.php on line 22
+[15-Aug-2016 16:50:32 UTC] PHP Stack trace:
+[15-Aug-2016 16:50:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/admin.php:0
+[15-Aug-2016 23:47:43 UTC] PHP Notice:  Undefined index: partner in /home/ubuntu/workspace/CS50/pset9fp/public/index.php on line 31
+[15-Aug-2016 23:47:43 UTC] PHP Stack trace:
+[15-Aug-2016 23:47:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/index.php:0
+[15-Aug-2016 23:47:43 UTC] PHP Notice:  Undefined index: partner in /home/ubuntu/workspace/CS50/pset9fp/public/index.php on line 74
+[15-Aug-2016 23:47:43 UTC] PHP Stack trace:
+[15-Aug-2016 23:47:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/index.php:0
+[15-Aug-2016 23:48:10 UTC] PHP Notice:  Undefined index: partner in /home/ubuntu/workspace/CS50/pset9fp/public/index.php on line 74
+[15-Aug-2016 23:48:10 UTC] PHP Stack trace:
+[15-Aug-2016 23:48:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/index.php:0
+[15-Aug-2016 23:49:39 UTC] PHP Notice:  Undefined index: partner in /home/ubuntu/workspace/CS50/pset9fp/public/index.php on line 82
+[15-Aug-2016 23:49:39 UTC] PHP Stack trace:
+[15-Aug-2016 23:49:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/index.php:0
+[15-Aug-2016 23:50:02 UTC] PHP Notice:  Undefined index: partner in /home/ubuntu/workspace/CS50/pset9fp/public/index.php on line 82
+[15-Aug-2016 23:50:02 UTC] PHP Stack trace:
+[15-Aug-2016 23:50:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/index.php:0
+[16-Aug-2016 01:09:39 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:09:39 UTC] PHP Stack trace:
+[16-Aug-2016 01:09:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:09:42 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:09:42 UTC] PHP Stack trace:
+[16-Aug-2016 01:09:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:09:57 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:09:57 UTC] PHP Stack trace:
+[16-Aug-2016 01:09:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:09:58 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:09:58 UTC] PHP Stack trace:
+[16-Aug-2016 01:09:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:05 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:10:05 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:05 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:10:05 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:05 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:10:05 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:05 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:10:05 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:05 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:10:05 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:05 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:10:05 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:09 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:10:09 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:09 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:10:09 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:09 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:10:09 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:09 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:10:09 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:09 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:10:09 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:09 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:10:09 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:09 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:10:09 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:10 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:10:10 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:10 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:10:10 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:10 UTC] PHP Notice:  Undefined index: geo in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 6
+[16-Aug-2016 01:10:10 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:34 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:10:34 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:34 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:10:34 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:10:34 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:34 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:10:34 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:10:34 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:38 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:10:38 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:38 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:10:38 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:10:38 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:38 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:10:38 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:10:38 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:38 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:10:38 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:38 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:10:38 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:10:38 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:38 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:10:38 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:10:38 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:38 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:10:38 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:38 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:10:38 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:10:38 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:38 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:10:38 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:10:38 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:38 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:10:38 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:38 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:10:38 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:10:38 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:38 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:10:38 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:10:38 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:39 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:10:39 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:39 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:10:39 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:10:39 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:39 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:10:39 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:10:39 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:39 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:10:39 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:39 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:10:39 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:10:39 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:39 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:10:39 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:10:39 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:39 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:10:39 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:39 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:10:39 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:10:39 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:39 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:10:39 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:10:39 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:39 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:10:39 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:39 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:10:39 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:10:39 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:39 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:10:39 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:10:39 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:40 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:10:40 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:40 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:10:40 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:10:40 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:10:40 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:10:40 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:10:40 UTC] PHP Stack trace:
+[16-Aug-2016 01:10:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:11:36 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:11:36 UTC] PHP Stack trace:
+[16-Aug-2016 01:11:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:11:36 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:11:36 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:11:36 UTC] PHP Stack trace:
+[16-Aug-2016 01:11:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:11:36 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:11:36 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:11:36 UTC] PHP Stack trace:
+[16-Aug-2016 01:11:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:12:20 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:12:20 UTC] PHP Stack trace:
+[16-Aug-2016 01:12:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:12:20 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:12:20 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:12:20 UTC] PHP Stack trace:
+[16-Aug-2016 01:12:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:12:20 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:12:20 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:12:20 UTC] PHP Stack trace:
+[16-Aug-2016 01:12:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:12:22 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:12:22 UTC] PHP Stack trace:
+[16-Aug-2016 01:12:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:12:22 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:12:22 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:12:22 UTC] PHP Stack trace:
+[16-Aug-2016 01:12:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:12:22 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:12:22 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:12:22 UTC] PHP Stack trace:
+[16-Aug-2016 01:12:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:12:22 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:12:22 UTC] PHP Stack trace:
+[16-Aug-2016 01:12:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:12:22 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:12:22 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:12:22 UTC] PHP Stack trace:
+[16-Aug-2016 01:12:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:12:22 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:12:22 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:12:22 UTC] PHP Stack trace:
+[16-Aug-2016 01:12:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:12:23 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:12:23 UTC] PHP Stack trace:
+[16-Aug-2016 01:12:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:12:23 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:12:23 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:12:23 UTC] PHP Stack trace:
+[16-Aug-2016 01:12:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:12:23 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:12:23 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:12:23 UTC] PHP Stack trace:
+[16-Aug-2016 01:12:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:12:23 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:12:23 UTC] PHP Stack trace:
+[16-Aug-2016 01:12:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:12:23 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:12:23 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:12:23 UTC] PHP Stack trace:
+[16-Aug-2016 01:12:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:12:23 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:12:23 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:12:23 UTC] PHP Stack trace:
+[16-Aug-2016 01:12:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:14:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:14:00 UTC] PHP Stack trace:
+[16-Aug-2016 01:14:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:14:00 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:14:00 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:14:00 UTC] PHP Stack trace:
+[16-Aug-2016 01:14:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:14:00 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:14:00 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:14:00 UTC] PHP Stack trace:
+[16-Aug-2016 01:14:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:19:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:19:02 UTC] PHP Stack trace:
+[16-Aug-2016 01:19:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:19:02 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:19:02 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:19:02 UTC] PHP Stack trace:
+[16-Aug-2016 01:19:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:19:02 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:19:02 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:19:02 UTC] PHP Stack trace:
+[16-Aug-2016 01:19:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:19:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 25
+[16-Aug-2016 01:19:02 UTC] PHP Stack trace:
+[16-Aug-2016 01:19:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:19:02 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:25
+[16-Aug-2016 01:19:02 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 31
+[16-Aug-2016 01:19:02 UTC] PHP Stack trace:
+[16-Aug-2016 01:19:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:19:02 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:31
+[16-Aug-2016 01:19:02 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:19:02 UTC] PHP Stack trace:
+[16-Aug-2016 01:19:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:19:13 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:19:13 UTC] PHP Stack trace:
+[16-Aug-2016 01:19:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:19:15 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:19:15 UTC] PHP Stack trace:
+[16-Aug-2016 01:19:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:19:16 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:19:16 UTC] PHP Stack trace:
+[16-Aug-2016 01:19:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:19:16 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:19:16 UTC] PHP Stack trace:
+[16-Aug-2016 01:19:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:19:16 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:19:16 UTC] PHP Stack trace:
+[16-Aug-2016 01:19:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:19:17 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:19:17 UTC] PHP Stack trace:
+[16-Aug-2016 01:19:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:19:17 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:19:17 UTC] PHP Stack trace:
+[16-Aug-2016 01:19:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:19:17 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:19:17 UTC] PHP Stack trace:
+[16-Aug-2016 01:19:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:19:17 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 01:19:17 UTC] PHP Stack trace:
+[16-Aug-2016 01:19:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 01:41:22 UTC] PHP Notice:  Array to string conversion in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 37
+[16-Aug-2016 01:41:22 UTC] PHP Stack trace:
+[16-Aug-2016 01:41:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:07:36 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 38
+[16-Aug-2016 02:07:36 UTC] PHP Stack trace:
+[16-Aug-2016 02:07:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:07:53 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 38
+[16-Aug-2016 02:07:53 UTC] PHP Stack trace:
+[16-Aug-2016 02:07:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:10:01 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 38
+[16-Aug-2016 02:10:01 UTC] PHP Stack trace:
+[16-Aug-2016 02:10:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:12:11 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 40
+[16-Aug-2016 02:12:11 UTC] PHP Stack trace:
+[16-Aug-2016 02:12:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:16:57 UTC] PHP Notice:  Undefined variable: link in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 26
+[16-Aug-2016 02:16:57 UTC] PHP Stack trace:
+[16-Aug-2016 02:16:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:16:57 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 26
+[16-Aug-2016 02:16:57 UTC] PHP Stack trace:
+[16-Aug-2016 02:16:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:16:57 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:26
+[16-Aug-2016 02:16:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 30
+[16-Aug-2016 02:16:57 UTC] PHP Stack trace:
+[16-Aug-2016 02:16:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:16:57 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:30
+[16-Aug-2016 02:16:57 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 02:16:57 UTC] PHP Stack trace:
+[16-Aug-2016 02:16:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:16:57 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:36
+[16-Aug-2016 02:16:57 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:16:57 UTC] PHP Stack trace:
+[16-Aug-2016 02:16:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:17:19 UTC] PHP Notice:  Undefined variable: link in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 26
+[16-Aug-2016 02:17:19 UTC] PHP Stack trace:
+[16-Aug-2016 02:17:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:17:19 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 26
+[16-Aug-2016 02:17:19 UTC] PHP Stack trace:
+[16-Aug-2016 02:17:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:17:19 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:26
+[16-Aug-2016 02:17:19 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:17:19 UTC] PHP Stack trace:
+[16-Aug-2016 02:17:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:17:59 UTC] PHP Notice:  Undefined variable: link in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 26
+[16-Aug-2016 02:17:59 UTC] PHP Stack trace:
+[16-Aug-2016 02:17:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:17:59 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 26
+[16-Aug-2016 02:17:59 UTC] PHP Stack trace:
+[16-Aug-2016 02:17:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:17:59 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:26
+[16-Aug-2016 02:17:59 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:17:59 UTC] PHP Stack trace:
+[16-Aug-2016 02:17:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:20:31 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 30
+[16-Aug-2016 02:20:31 UTC] PHP Stack trace:
+[16-Aug-2016 02:20:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:20:31 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:30
+[16-Aug-2016 02:20:31 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 02:20:31 UTC] PHP Stack trace:
+[16-Aug-2016 02:20:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:20:31 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:36
+[16-Aug-2016 02:20:31 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:20:31 UTC] PHP Stack trace:
+[16-Aug-2016 02:20:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:21:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 30
+[16-Aug-2016 02:21:18 UTC] PHP Stack trace:
+[16-Aug-2016 02:21:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:21:18 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:30
+[16-Aug-2016 02:21:18 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 02:21:18 UTC] PHP Stack trace:
+[16-Aug-2016 02:21:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:21:18 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:36
+[16-Aug-2016 02:21:18 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:21:18 UTC] PHP Stack trace:
+[16-Aug-2016 02:21:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:21:46 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 30
+[16-Aug-2016 02:21:46 UTC] PHP Stack trace:
+[16-Aug-2016 02:21:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:21:46 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:30
+[16-Aug-2016 02:21:46 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 02:21:46 UTC] PHP Stack trace:
+[16-Aug-2016 02:21:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:21:46 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:36
+[16-Aug-2016 02:21:46 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:21:46 UTC] PHP Stack trace:
+[16-Aug-2016 02:21:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:23:12 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 30
+[16-Aug-2016 02:23:12 UTC] PHP Stack trace:
+[16-Aug-2016 02:23:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:23:12 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:30
+[16-Aug-2016 02:23:12 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 36
+[16-Aug-2016 02:23:12 UTC] PHP Stack trace:
+[16-Aug-2016 02:23:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:23:12 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:36
+[16-Aug-2016 02:23:12 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:23:12 UTC] PHP Stack trace:
+[16-Aug-2016 02:23:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:28:33 UTC] PHP Notice:  Undefined variable: id in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 26
+[16-Aug-2016 02:28:33 UTC] PHP Stack trace:
+[16-Aug-2016 02:28:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:30:07 UTC] PHP Notice:  Undefined variable: id in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 26
+[16-Aug-2016 02:30:07 UTC] PHP Stack trace:
+[16-Aug-2016 02:30:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:30:07 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:30:07 UTC] PHP Stack trace:
+[16-Aug-2016 02:30:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:30:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:30:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:30:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:30:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:30:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:30:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:30:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:30:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:30:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:30:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:30:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:30:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:30:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:30:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:30:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:30:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:30:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:30:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:30:52 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:30:52 UTC] PHP Stack trace:
+[16-Aug-2016 02:30:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:30:53 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:30:53 UTC] PHP Stack trace:
+[16-Aug-2016 02:30:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:30:54 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:30:54 UTC] PHP Stack trace:
+[16-Aug-2016 02:30:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:00 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:00 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:01 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:01 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:01 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:01 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:01 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:01 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:01 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:01 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:02 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:02 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:02 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:02 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:02 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:02 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:02 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:02 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:02 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:02 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:02 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:02 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:02 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:02 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:02 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:02 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:02 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:02 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:02 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:02 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:02 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:02 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:03 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:03 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:03 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:03 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:03 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:03 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:03 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:03 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:03 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:03 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:05 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:05 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:06 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:06 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:06 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:06 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:06 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:06 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:06 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:06 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:06 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:06 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:06 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:06 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:06 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:06 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:06 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:06 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:07 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:07 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:07 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:07 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:07 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:07 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:07 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:07 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:07 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:07 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:07 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:07 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:07 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:07 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:07 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:07 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:07 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:07 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:07 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:07 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:08 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:08 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:09 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:09 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:09 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:09 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:09 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:09 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:09 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:09 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:09 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:09 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:09 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:09 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:09 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:09 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:13 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:13 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:13 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:13 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:13 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:13 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:13 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:13 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:14 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:14 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:14 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:14 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:15 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:15 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:15 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:15 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:16 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:16 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:31:59 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:31:59 UTC] PHP Stack trace:
+[16-Aug-2016 02:31:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:12 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:12 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:12 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:12 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:12 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:12 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:12 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:12 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:12 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:12 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:12 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:12 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:13 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:13 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:13 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:13 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:13 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:13 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:13 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:13 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:13 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:13 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:13 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:13 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:14 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:14 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:14 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:14 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:14 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:14 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:14 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:14 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:39 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:39 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:39 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:39 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:39 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:39 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:39 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:39 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:39 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:39 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:40 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:40 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:40 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:40 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:40 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:40 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:40 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:40 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:40 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:40 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:40 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:40 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:40 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:40 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:32:40 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:32:40 UTC] PHP Stack trace:
+[16-Aug-2016 02:32:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:33:03 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:03 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:03 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:03 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:03 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:04 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:04 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:04 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:04 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:04 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:04 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:04 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:04 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:05 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:05 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:05 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:05 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:05 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:05 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:05 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:05 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:06 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:06 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:06 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:06 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:15 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:15 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:15 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:17 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:17 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:17 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:17 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:17 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 28
+[16-Aug-2016 02:33:34 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:33:34 UTC] PHP Stack trace:
+[16-Aug-2016 02:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:04 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:04 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:05 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:05 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:05 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:05 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:05 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:05 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:05 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:05 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:05 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:05 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:05 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:05 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:05 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:05 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:05 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:05 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:05 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:05 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:05 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:05 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:05 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:05 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:05 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:05 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:05 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:05 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:05 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:05 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:05 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:05 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:26 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:26 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:26 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:26 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:34 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:34 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:34 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:34 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:34 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:34 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:34 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:34 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:34 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:34 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:34 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:34 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:34 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:34 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:34 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:34 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:36 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:36 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:36 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:36 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:36 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:36 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:36 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:36 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:36 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:36 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:36 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:36 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:36 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:36 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:34:37 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:34:37 UTC] PHP Stack trace:
+[16-Aug-2016 02:34:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:26 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:26 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:26 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:26 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:26 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:26 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:26 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:26 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:26 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:26 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:26 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:26 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:26 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:26 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:26 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:26 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:26 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:26 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:26 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:26 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:26 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:26 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:26 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:26 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:27 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:27 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:28 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:28 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:29 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:29 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:30 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:30 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:31 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:31 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:35:58 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:35:58 UTC] PHP Stack trace:
+[16-Aug-2016 02:35:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:36:10 UTC] PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/CS50/pset9fp/includes/config.php on line 23
+[16-Aug-2016 02:36:10 UTC] PHP Stack trace:
+[16-Aug-2016 02:36:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
+[16-Aug-2016 02:36:10 UTC] PHP   2. require() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:3
+[16-Aug-2016 02:36:10 UTC] PHP   3. session_start() /home/ubuntu/workspace/CS50/pset9fp/includes/config.php:23
+[16-Aug-2016 02:38:02 UTC] PHP Notice:  Undefined variable: partners in /home/ubuntu/workspace/CS50/pset9fp/public/search.php on line 41
+[16-Aug-2016 02:38:02 UTC] PHP Stack trace:
+[16-Aug-2016 02:38:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/search.php:0
