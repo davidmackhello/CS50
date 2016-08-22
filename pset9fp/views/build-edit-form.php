@@ -3,19 +3,19 @@
 <html>
     <head>
         <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     
         <!-- Bootstrap Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">        
         
         <!-- Bootstrap Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-        <!-- Are-You-Sure dirty form checker -->
-        <script src="/js/are-you-sure.js"></script>
         
         <!-- app CSS -->
         <link href="/css/styles.css" rel="stylesheet"/>
+        
+        <!-- Are-You-Sure dirty form checker -->
+        <script src="/js/are-you-sure.js"></script>
         
         <!-- app JavaScript -->
         <script src="/js/build-edit-scripts.js"></script>
@@ -49,7 +49,7 @@
                             <div class="form-group shortfield">
                                 <label class="control-label" for="title">Sheet Title</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="title" placeholder="Enter sheet title">
+                                    <input type="text" class="form-control" id="title" placeholder="Enter sheet title" autocomplete="off">
                                     <span class="input-group-btn">
                                         <button class="btn btn-link savedit" type="button">Save</button>
                                     </span>
@@ -59,7 +59,7 @@
                             <div class="form-group shortfield">
                                 <label class="control-label" for="slug">URL Slug</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="slug" placeholder="slug">
+                                    <input type="text" class="form-control" id="slug" placeholder="slug" autocomplete="off">
                                     <span class="input-group-btn">
                                         <button class="btn btn-link savedit" id="slugbutton" type="button">Save</button>
                                     </span>
@@ -68,7 +68,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="description">Sheet Description</label>
-                                <textarea class="form-control" id="description" rows="3" placeholder="Enter instructions for your referral partners here">Please scroll through the technology areas listed below, and submit any companies that you think might be a good fit using the 'Add Referral' fields. When you are done adding companies, click 'Review & Submit.' If you have any questions, contact David Machajewski at dmachajewski@istcoalition.org.</textarea>
+                                <textarea class="form-control" id="description" rows="3" placeholder="Enter instructions for your referral partners here">Please scroll through the technology areas listed below, and submit any companies that you think might be a good fit using the 'Add Referral' fields. When you are done adding companies, click 'Review & Submit.' You only need to refer a startup once, even if it fits multiple categories. If you have any questions, contact David Machajewski at dmachajewski@istcoalition.org.</textarea>
                                 <small class="text-muted control-label">These are the instructions your referral partner will see.</small>
                             </div>
                         </div> <!-- #infofields -->

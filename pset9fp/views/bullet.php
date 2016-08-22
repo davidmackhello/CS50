@@ -4,7 +4,7 @@
                                                     <span class="input-group-btn">
                                                         <button class="btn btn-link remove byebullet" type="button"><span class="glyphicon glyphicon-minus-sign" aria-hidden="true"></span></button>
                                                     </span>
-                                                    <input type="text" class="form-control bulletfield" placeholder="New bullet">
+                                                    <input type="text" class="form-control bulletfield" placeholder="New bullet" autocomplete="off">
                                                     <span class="input-group-btn">
                                                         <button class="btn btn-link savedit" type="button">Save</button>
                                                     </span>

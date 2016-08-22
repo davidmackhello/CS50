@@ -4,7 +4,7 @@
 
     <head>
         <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 
         <!-- Bootstrap Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">        
@@ -15,14 +15,14 @@
         <!-- app CSS -->
         <link href="/css/styles.css" rel="stylesheet"/>
         
-        <!-- app JavaScript -->
-        <script src="/js/adminscripts.js"></script>
-        
         <!-- https://github.com/twitter/typeahead.js/ -->
         <script src="/js/typeahead.jquery.min.js"></script>
         
         <!-- http://underscorejs.org/ -->
         <script src="/js/underscore-min.js"></script>
+        
+        <!-- app JavaScript -->
+        <script src="/js/adminscripts.js"></script>
         
         <!-- obtain partners array for typeahead -->
         <script> var partners = <?php echo json_encode($partners) ?>;</script>
@@ -50,7 +50,7 @@
                         <div class="modal-body">
                             <h4>New Partner:</h4>
                             <div class="spaceout">
-                                <input type="text" class="form-control" id="oldham" name="oldham" placeholder="Partner Name">
+                                <input type="text" class="form-control" id="oldham" name="oldham" placeholder="Partner Name" autocomplete="off">
                             </div>
                         </div>
                         <div class="modal-footer coolcolor">
@@ -67,7 +67,6 @@
             </div>
             <hr class="darkhr">
             <div id="middle" class="container">
-
                 <div class="col-xs-12 col-md-4">
                     <div class="inline-space">
                         <h2>Build new list</h2>
@@ -95,7 +94,9 @@
                         <a data-toggle="modal" data-target="#partnermodal"><span class="glyphicon glyphicon-send adminbox" aria-hidden="true"></span></a>
                     </div>
                 </div>
-                
+                <div class="col-xs-12">
+                    <a id="dlref" href="csv-io.php?purpose=referrals" class="btn btn-lg btn-success" role="button"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download Referrals</a>
+                </div>
             </div>
         </div> <!-- container-fluid -->
         <div id="linkbar" class="col-xs-12">
@@ -115,6 +116,7 @@
                         <label for="partnerselect">Who is it for?: </label>
                         <select id="partnerselect">
                             <option selected disabled>Select partner</option>
+                            <option value="GETALL">---GET LINKS FOR ALL---</option>
                         <?php foreach ($partners as $partner): ?>
                             <option value="<?= htmlspecialchars($partner["id"]); ?>"><?= htmlspecialchars($partner["partner"]); ?></option>
                         <?php endforeach ?>
@@ -135,7 +137,7 @@
                         <span class="input-group-btn">
                             <button class="btn btn-primary" type="button" id="getlink">Get Link</button>
                         </span>
-                        <input type="text" class="form-control" id="linkfield">
+                        <input type="text" class="form-control" id="linkfield" autocomplete="off">
                     </div>
                 </div>    
                 </form>

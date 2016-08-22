@@ -10,9 +10,15 @@
 
 // execute when the DOM is fully loaded
 $(function() {
-    
-    $('#myform').areYouSure();
 
+    // enable areYouSure plugin to detect dirty form changes
+    $('#myform').areYouSure();
+    
+    // mark form as dirty any time any text input changes
+    $(document).on('change', 'input', function() {
+        $('#myform').addClass('dirty');
+    });
+    
     // in edit mode, this step (retrieving list of json names) will be skipped because 'items' will be defined
     if (typeof items == 'undefined')
     {
@@ -119,9 +125,6 @@ $(function() {
         }
 
         $(this).blur();
-        
-        // mark form as dirty
-        $('#myform').addClass('dirty');
     });
 
     // add new block when main 'add category' button clicked
@@ -137,10 +140,7 @@ $(function() {
         $("#addblockshere").find(".block:last").slideDown("fast");
 
         // give focus to new category field
-        $(".block").find("input.catfield").focus();
-
-        // mark form as dirty if block added
-        $('#myform').addClass('dirty');
+        $(".block:last").find("input.catfield").focus();
 
     });
 
@@ -151,17 +151,12 @@ $(function() {
         if ($(this).hasClass("byeblock") == true)
         {
             $(this).closest("div.block").slideUp("fast", function() { $(this).remove(); } );
-            //$(this).closest("div.block").remove();
         }
 
         else if ($(this).hasClass("byebullet") == true)
         {
             $(this).closest("div.bullet").slideUp("fast", function() { $(this).remove(); } );
-            //$(this).closest("div.bullet").remove();
         }
-        
-        // mark form as dirty if bullet removed
-        $('#myform').addClass('dirty');
     });
 
     // add new bullet to given block section upon button click
@@ -181,9 +176,6 @@ $(function() {
 
         // give focus to new bullet field
         $(newdiv).find(".bullet:last").find("input.bulletfield").focus();
-        
-        // mark form as dirty if bullet added
-        $('#myform').addClass('dirty');
     });
 
     // ensure all fields entered and saved
@@ -321,7 +313,6 @@ $(function() {
         // if user confirms
         if (warn == true) 
         {
-
             // initiate ajax request delete sheet from server
             $.ajax({
 
@@ -351,10 +342,8 @@ $(function() {
                     console.log( "Status: " + status );
                     console.dir( xhr );
             });
-                
         }
     });
-    
 });
 
 /**

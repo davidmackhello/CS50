@@ -32,7 +32,7 @@
     }
     
     // retrieve all referral partners
-    $query = "SELECT * FROM partners ORDER BY partner";
+    $query = "SELECT id, partner FROM partners ORDER BY partner";
     $result = mysqli_query($connection, $query);
     while ($row = mysqli_fetch_assoc($result)) 
     {
@@ -65,5 +65,5 @@
     
     // render admin page
     render("adminpage.php", ["sheetnames" => $sheetnames, "partners" => $partners]);
-    
+
 ?>

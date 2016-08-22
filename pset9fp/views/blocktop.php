@@ -5,7 +5,7 @@
                                             <span class="input-group-btn">
                                                 <button class="btn btn-lg btn-link remove byeblock" type="button"><span class="glyphicon glyphicon-minus-sign" aria-hidden="true"></span></button>
                                             </span>
-                                            <input type="text" class="form-control input-lg catfield" placeholder="New Category">
+                                            <input type="text" class="form-control input-lg catfield" placeholder="New Category" autocomplete="off">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-default btn-link savedit" type="button">Save</button>
                                             </span>

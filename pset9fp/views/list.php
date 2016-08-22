@@ -4,7 +4,7 @@
 
     <head>
         <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 
         <!-- Bootstrap Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">        
@@ -15,8 +15,17 @@
         <!-- app CSS -->
         <link href="/css/styles.css" rel="stylesheet"/>
         
+        <!-- https://github.com/twitter/typeahead.js/ -->
+        <script src="/js/typeahead.jquery.min.js"></script>
+        
+        <!-- http://underscorejs.org/ -->
+        <script src="/js/underscore-min.js"></script>
+        
         <!-- app JavaScript -->
         <script src="/js/sheetscripts.js"></script>
+        
+        <!-- obtain partner id and sheet slug -->
+        <script> var thispartner = <?php echo json_encode($p_id) ?>; var slug = <?php echo json_encode($slug) ?>; var logo = <?php echo json_encode($logo) ?>;</script>
         
         <?php if (isset($sheetinfo)): ?>
             <title><?= htmlspecialchars($sheetinfo['name']) ?></title>
@@ -44,7 +53,7 @@
                         </div>
                         <div class="modal-footer coolcolor">
                             <button type="button" class="btn btn-link" data-dismiss="modal">Go back</button>
-                            <button type="button" class="btn btn-success">Submit</button>
+                            <button id="finalsubmit" type="button" class="btn btn-success">Submit</button>
                         </div>
                     </div>
                 </div>
@@ -87,18 +96,18 @@
                     <form id="referform" class="form-inline">
                         
                         <div class="form-group inline-space">
-                        <label for="startup">Company Name: </label>
-                        <input type="text" class="form-control" id="startup" placeholder="StartupX">
+                        <label id="startuplabel" for="startup">Company Name: </label>
+                        <input type="text" class="form-control" id="startup" placeholder="StartupX" autocomplete="off">
                         </div>
                         
                         <div class="form-group inline-space">
                         <label for="name">Contact: </label>
-                        <input type="text" class="form-control" id="name" placeholder="Jane Doe">
+                        <input type="text" class="form-control" id="name" placeholder="Jane Doe" autocomplete="off">
                         </div>
                         
                         <div class="form-group inline-space">
                         <label for="email">Email: </label>
-                        <input type="email" class="form-control" id="email" placeholder="jane@startupx.com">
+                        <input type="email" class="form-control" id="email" placeholder="jane@startupx.com" autocomplete="off">
                         </div>
                         
                         <button id="addreferral" class="btn btn-danger"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add referral</button>

@@ -30,7 +30,7 @@
                 ];
         }
     }
-    
+
     // render portfolio view
     render("portfolio.php", ["title" => "Portfolio", "cash" => '$'.number_format($cashrow[0]["cash"], 2, '.', ','), "positions" => $positions, "greeting" => "My Portfolio"]);
 ?>
