@@ -1,6 +1,9 @@
 def newpath():
     pass
 
+def david2():
+    print("this function needs to be at the end of the file or else")
+
 def newertime():
     testing = 4 % 4
     print("yep")
