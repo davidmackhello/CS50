@@ -1,25 +1,16 @@
-def uptop():
-    print("charlie feels this should be the first function")
+def newpath():
+    pass
 
-def charlie():
-    print("charlie added a new function in core python while working on his branch")
-
-def snoopy():
-    print("snooooopy")
-
-def main():
-    print("main actually NEEDS to behave like this")
-    print("this is the core function in this code which everyone agrees on")
-    return m
-
-def david():
-    print("david added a function after main while updating the master branch")
+def newertime():
+    testing = 4 % 4
+    print("yep")
+    ap = [1, 2, 4]
+    j = ap.append(5)
 
 def woodstock():
     print("woodstock")
-
-def downlow():
-    print("charlie feels this could end the file")
-
-def david2():
-    print("this function needs to be at the end of the file or else")
+    
+def main():
+    b = 5
+    c = 7
+    twelve = b + c
