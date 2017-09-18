@@ -143,3 +143,53 @@
 [25-Jul-2016 00:48:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset8/public/update.php:0
 [25-Jul-2016 00:48:16 UTC] PHP   2. CS50::query() /home/ubuntu/workspace/CS50/pset8/public/update.php:30
 [25-Jul-2016 00:48:16 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php:313
+[17-Mar-2017 20:12:16 UTC] PHP Fatal error:  SQLSTATE[HY000] [1045] Access denied for user 'machajew'@'localhost' (using password: YES) in /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php on line 313
+[17-Mar-2017 20:12:16 UTC] PHP Stack trace:
+[17-Mar-2017 20:12:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset8/public/update.php:0
+[17-Mar-2017 20:12:16 UTC] PHP   2. CS50::query() /home/ubuntu/workspace/CS50/pset8/public/update.php:30
+[17-Mar-2017 20:12:16 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php:313
+[17-Mar-2017 20:12:20 UTC] PHP Fatal error:  SQLSTATE[HY000] [1045] Access denied for user 'machajew'@'localhost' (using password: YES) in /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php on line 313
+[17-Mar-2017 20:12:20 UTC] PHP Stack trace:
+[17-Mar-2017 20:12:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset8/public/update.php:0
+[17-Mar-2017 20:12:20 UTC] PHP   2. CS50::query() /home/ubuntu/workspace/CS50/pset8/public/update.php:30
+[17-Mar-2017 20:12:20 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php:313
+[17-Mar-2017 20:12:24 UTC] PHP Fatal error:  SQLSTATE[HY000] [1045] Access denied for user 'machajew'@'localhost' (using password: YES) in /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php on line 313
+[17-Mar-2017 20:12:24 UTC] PHP Stack trace:
+[17-Mar-2017 20:12:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset8/public/update.php:0
+[17-Mar-2017 20:12:24 UTC] PHP   2. CS50::query() /home/ubuntu/workspace/CS50/pset8/public/update.php:30
+[17-Mar-2017 20:12:24 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php:313
+[17-Mar-2017 20:12:25 UTC] PHP Fatal error:  SQLSTATE[HY000] [1045] Access denied for user 'machajew'@'localhost' (using password: YES) in /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php on line 313
+[17-Mar-2017 20:12:25 UTC] PHP Stack trace:
+[17-Mar-2017 20:12:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset8/public/update.php:0
+[17-Mar-2017 20:12:25 UTC] PHP   2. CS50::query() /home/ubuntu/workspace/CS50/pset8/public/update.php:30
+[17-Mar-2017 20:12:25 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php:313
+[17-Mar-2017 20:12:26 UTC] PHP Fatal error:  SQLSTATE[HY000] [1045] Access denied for user 'machajew'@'localhost' (using password: YES) in /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php on line 313
+[17-Mar-2017 20:12:26 UTC] PHP Stack trace:
+[17-Mar-2017 20:12:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset8/public/update.php:0
+[17-Mar-2017 20:12:26 UTC] PHP   2. CS50::query() /home/ubuntu/workspace/CS50/pset8/public/update.php:30
+[17-Mar-2017 20:12:26 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php:313
+[17-Mar-2017 20:12:27 UTC] PHP Fatal error:  SQLSTATE[HY000] [1045] Access denied for user 'machajew'@'localhost' (using password: YES) in /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php on line 313
+[17-Mar-2017 20:12:27 UTC] PHP Stack trace:
+[17-Mar-2017 20:12:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset8/public/update.php:0
+[17-Mar-2017 20:12:27 UTC] PHP   2. CS50::query() /home/ubuntu/workspace/CS50/pset8/public/update.php:30
+[17-Mar-2017 20:12:27 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php:313
+[17-Mar-2017 20:12:29 UTC] PHP Fatal error:  SQLSTATE[HY000] [1045] Access denied for user 'machajew'@'localhost' (using password: YES) in /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php on line 313
+[17-Mar-2017 20:12:29 UTC] PHP Stack trace:
+[17-Mar-2017 20:12:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset8/public/update.php:0
+[17-Mar-2017 20:12:29 UTC] PHP   2. CS50::query() /home/ubuntu/workspace/CS50/pset8/public/update.php:30
+[17-Mar-2017 20:12:29 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php:313
+[17-Mar-2017 20:12:30 UTC] PHP Fatal error:  SQLSTATE[HY000] [1045] Access denied for user 'machajew'@'localhost' (using password: YES) in /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php on line 313
+[17-Mar-2017 20:12:30 UTC] PHP Stack trace:
+[17-Mar-2017 20:12:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset8/public/update.php:0
+[17-Mar-2017 20:12:30 UTC] PHP   2. CS50::query() /home/ubuntu/workspace/CS50/pset8/public/update.php:30
+[17-Mar-2017 20:12:30 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php:313
+[17-Mar-2017 20:12:31 UTC] PHP Fatal error:  SQLSTATE[HY000] [1045] Access denied for user 'machajew'@'localhost' (using password: YES) in /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php on line 313
+[17-Mar-2017 20:12:31 UTC] PHP Stack trace:
+[17-Mar-2017 20:12:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset8/public/update.php:0
+[17-Mar-2017 20:12:31 UTC] PHP   2. CS50::query() /home/ubuntu/workspace/CS50/pset8/public/update.php:30
+[17-Mar-2017 20:12:31 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php:313
+[17-Mar-2017 20:12:33 UTC] PHP Fatal error:  SQLSTATE[HY000] [1045] Access denied for user 'machajew'@'localhost' (using password: YES) in /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php on line 313
+[17-Mar-2017 20:12:33 UTC] PHP Stack trace:
+[17-Mar-2017 20:12:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset8/public/update.php:0
+[17-Mar-2017 20:12:33 UTC] PHP   2. CS50::query() /home/ubuntu/workspace/CS50/pset8/public/update.php:30
+[17-Mar-2017 20:12:33 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/CS50/pset8/vendor/library50-php-5/CS50/CS50.php:313

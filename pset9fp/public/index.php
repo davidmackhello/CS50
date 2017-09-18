@@ -89,7 +89,7 @@
         // ensure proper usage
         if (isset($_GET["sheet"]) && isset($_GET["p_id"]) && $_GET["p_id"] !== "" && isset($_GET["logo"]) && $_GET["logo"] !== "")
         {
-            // create array for json file names and bool to test for match
+            // create array for json file names
             $sheetnames = [];
     
             // open json directory

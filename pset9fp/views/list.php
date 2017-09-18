@@ -96,17 +96,17 @@
                     <form id="referform" class="form-inline">
                         
                         <div class="form-group inline-space">
-                        <label id="startuplabel" for="startup">Company Name: </label>
+                        <label id="startuplabel" for="startup" class="whitetext">Company Name: </label>
                         <input type="text" class="form-control" id="startup" placeholder="StartupX" autocomplete="off">
                         </div>
                         
                         <div class="form-group inline-space">
-                        <label for="name">Contact: </label>
+                        <label for="name" class="whitetext">Contact: </label>
                         <input type="text" class="form-control" id="name" placeholder="Jane Doe" autocomplete="off">
                         </div>
                         
                         <div class="form-group inline-space">
-                        <label for="email">Email: </label>
+                        <label for="email" class="whitetext">Email: </label>
                         <input type="email" class="form-control" id="email" placeholder="jane@startupx.com" autocomplete="off">
                         </div>
                         

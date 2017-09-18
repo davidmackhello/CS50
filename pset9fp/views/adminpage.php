@@ -104,7 +104,7 @@
                 <form>
                 <div class="col-xs-12 adminrow form-inline">
                     <div class="form-group">
-                        <label for="sheetselect">Choose your list: </label>
+                        <label for="sheetselect" class="whitetext">Choose your list: </label>
                         <select id="sheetselect">
                              <option selected disabled>Select list</option>
                         <?php foreach ($sheetnames as $sheetname): ?>
@@ -113,7 +113,7 @@
                         </select>
                     </div>
                     <div class="form-group inline-space">
-                        <label for="partnerselect">Who is it for?: </label>
+                        <label for="partnerselect" class="whitetext">Who is it for?: </label>
                         <select id="partnerselect">
                             <option selected disabled>Select partner</option>
                             <option value="GETALL">---GET LINKS FOR ALL---</option>
@@ -123,7 +123,7 @@
                         </select>
                     </div>
                     <div class="form-group inline-space">
-                        <label for="logoselect">Select Logo: </label>
+                        <label for="logoselect" class="whitetext">Select Logo: </label>
                         <select id="logoselect">
                             <option selected disabled>Select logo</option>
                             <option value="csc">Corporate-Startup Challenge</option>

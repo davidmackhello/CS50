@@ -23,7 +23,6 @@ body
     width:100%;
     position:fixed;
     z-index:100;
-    color: white;
 }
 
 .entryform
@@ -120,7 +119,6 @@ body
     width:100%;
     position:fixed;
     z-index:100;
-    color: white;
 }
 
 #sheetselect
@@ -233,4 +231,9 @@ a
 #dlref
 {
     margin-top:20px;
+}
+
+.whitetext
+{
+    color: white;
 }

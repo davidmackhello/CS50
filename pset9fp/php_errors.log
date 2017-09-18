@@ -4498,3 +4498,6 @@
 [22-Aug-2016 06:48:34 UTC] PHP Notice:  Undefined index: logo in /home/ubuntu/workspace/CS50/pset9fp/public/index.php on line 71
 [22-Aug-2016 06:48:34 UTC] PHP Stack trace:
 [22-Aug-2016 06:48:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/index.php:0
+[11-Sep-2016 20:54:30 UTC] PHP Notice:  Undefined index: areas in /home/ubuntu/workspace/CS50/pset9fp/public/edit.php on line 52
+[11-Sep-2016 20:54:30 UTC] PHP Stack trace:
+[11-Sep-2016 20:54:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset9fp/public/edit.php:0

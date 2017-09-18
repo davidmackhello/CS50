@@ -24,7 +24,7 @@
         $connection = mysqli_connect($host, $user, $pass, $db, $port) or die(mysql_error());
 
         // retrieve all referral data
-        $query = "SELECT startups.startup, startups.person, startups.email, partners.partner, referrals.sheet_name, referrals.first_time, referrals.timestamp FROM referrals LEFT JOIN startups ON referrals.startup_id=startups.id LEFT JOIN partners ON referrals.partner_id=partners.id ORDER BY referrals.id";
+        $query = "SELECT startups.startup, startups.person, startups.email, partners.partner, referrals.sheet_name, referrals.first_time, referrals.timestamp FROM referrals LEFT JOIN startups ON referrals.startup_id=startups.id LEFT JOIN partners ON referrals.partner_id=partners.id WHERE referrals.timestamp > 0 ORDER BY referrals.id";
         $result = mysqli_query($connection, $query);
         while ($row = mysqli_fetch_assoc($result)) fputcsv($output, $row);
        

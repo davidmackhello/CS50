@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>TOTAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for stock in stocks %}
+                <tr>
+                    <td>{{ stock|join('</td><td>'|safe) }}</td>
+                </tr>
+            {% endfor %}
+                <tr class="info">
+                    <td colspan="4"><em><strong>CASH</strong></em></td>
+                    <td><strong>{{ cash|usd }}</strong></td>
+                </tr>
+        </tbody>
+    </table>
+{% endblock %}
