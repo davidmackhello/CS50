@@ -10,3 +10,6 @@ def main():
     
 def david():
     print("david added a function after main while updating the master branch")
+    
+def david2():
+    print("this function needs to be at the end of the file or else")
