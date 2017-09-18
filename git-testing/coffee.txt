@@ -1,1 +1,3 @@
 here is a coffee text file everyone
+
+charlie added a second line to coffee.txt while in coffee branch
