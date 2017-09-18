@@ -1,3 +1,5 @@
 here is a coffee text file everyone
 
 charlie added a second line to coffee.txt while in coffee branch
+
+Charlie finished working on his branch by adding a third line in coffee.txt
