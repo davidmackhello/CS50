@@ -1,0 +1,156 @@
+[
+    {
+        "name": "Corporate-Startup Challenge: Class 3",
+        "text": "Please scroll through the technology areas listed below, and submit any companies that you think might be a good fit using the 'Add Referral' fields. When you are done adding companies, click 'Review & Submit.' You only need to refer a startup once, even if it fits multiple categories. If you have any questions, contact David Machajewski at dmachajewski@istcoalition.org."
+    },
+    {
+        "category": "3D Printing\/Digital Manufacturing",
+        "areas": [
+            "Companies developing new additive manufacturing materials (new polymers, new metals, etc.) - All stages",
+            "3D printer manufacturers developing new\/faster\/more customizable machines for industrial and consumer applications - All stages",
+            "Lower-cost virtual testing\/manufacturing simulation software solutions - All stages",
+            "Manufacturing process tools: lowering cost, eliminating components, Design for Manufacturing (DFM), etc - All stages"
+        ]
+    },
+    {
+        "category": "Automotive Technology",
+        "areas": [
+            "Connected devices, IoT, software, and hardware applications for vehicles - All stages",
+            "Advanced vehicle technologies: Infotainment, in-dash experience, telematics, intelligent vehicle technologies, and intelligent transportation systems - All stages",
+            "Indoor air quality monitoring, exhaust after-treatment technologies, and emission control systems - All stages",
+            "Lightweight and eco-friendly materials for vehicle interior - All stages",
+            "Lighter\/smaller electronics components for vehicles - All stages",
+            "Green technologies for automotive OEM's - All stages",
+            "Technologies to monitor and analyze battery performance in electric vehicles - All stages",
+            "Low-cost parts and infrastructure advancements for electric vehicles - All stages",
+            "Electric vehicle companies with niche market perspectives - All stages"
+        ]
+    },
+    {
+        "category": "Data Analytics",
+        "areas": [
+            "Big data analytics: unlocking and analyzing massive datasets for corporate\/enterprise, manufacturing, and civic\/public applications - All stages",
+            "Big data visualization and contextual presentation tools for corporate\/enterprise, manufacturing, and civic\/public data - All stages",
+            "Machine-learning technologies - All stages",
+            "Natural-language processing: digitally capturing conversations and utilizing speech analytics to harvest insights and data - All stages",
+            "Social listening and social analytics solutions that integrate with existing enterprise datasets - All stages",
+            "Data center management (infrastructure management and software deployment) - All stages",
+            "Data storage and retrieval technologies - All stages",
+            "Data fabrication: developing fake data for test environments - All stages",
+            "Predictive analytics for service, reliability, improved up-time, energy efficiency, and system performance in manufacturing setting - All stages",
+            "Global\/cloud data solutions that make manufacturing operations data (energy efficiency, system performance) available across an enterprise - All stages"
+        ]
+    },
+    {
+        "category": "Digital Imaging",
+        "areas": [
+            "Computer vision technologies (algorithmic image analysis, and collecting data beyond images) - All stages",
+            "Image capture & recognition: identifying\/evaluating objects in an image (auto, home, environmental, human) - All stages",
+            "Virtual reality\/immersive multimedia\/augmented reality products and services - All stages",
+            "3D mapping technologies for residential buildings - All stages"
+        ]
+    },
+    {
+        "category": "Educational Technology",
+        "areas": [
+            "Internet of Things (IoT), wearables, and location-based technology with educational\/public engagement focus - Post-revenue",
+            "\"Citizen science\" applications (e.g. weather\/meteorology technologies, smart meter technologies) - Post-revenue",
+            "Educational tools for basic coding, computer science, electronics & circuitry, artificial intelligence, and robotics (e.g. Raspberry Pi, Lego Robots) - Post-revenue",
+            "Training programs and improved application interfaces (UX\/UI) to teach digital literacy (children & adults; emphasis on ESL population) - Post-revenue",
+            "e-Learning tools, massive open online course (MOOC) platforms, and interactive educational games for children and adults - Post-revenue",
+            "Digital media tools (audio\/video production, graphic design) with educational\/public focus - Post-revenue",
+            "3D printing and \"maker\" technologies with educational\/public focus - Post-revenue",
+            "e-Learning platforms for training in the workplace (emphasis on energy, food manufacturing, and auto manufacturing sectors)",
+            "Course libraries for workplace health\/safety training - All stages"
+        ]
+    },
+    {
+        "category": "Energy\/Power Management",
+        "areas": [
+            "Fuel cell, energy storage, and power management solutions for home and small commercial buildings - All stages",
+            "Energy storage and energy efficiency technologies for data centers - All stages",
+            "Smart grid and energy efficiency technologies for industrial motors\/variable-speed drives (connecting to smart grid, demand response, load aggregation, and ancillary services) \u2013 all stages",
+            "Energy harvesting technology: improving energy efficiency and heat recapture in electronics systems - All stages",
+            "Batteries designed for power tools and small machines - All stages",
+            "Current and voltage sensing technologies - All stages"
+        ]
+    },
+    {
+        "category": "Financial Technology\/Banking",
+        "areas": [
+            "Mobile payment platforms (especially person-to-person) - All stages",
+            "Digital currency infrastructure (block chains, wallet systems, protocols, etc.) - All stages",
+            "Real-time personal spending and money management tools - All stages",
+            "Electronic\/digital signature cards for interest-bearing bank products - All stages",
+            "Financial education and decision-making tools - All stages"
+        ]
+    },
+    {
+        "category": "Hardware\/Devices and Materials",
+        "areas": [
+            "Wearable technology with advanced battery life, accuracy, authentication, and data collection capabilities for consumer and enterprise productivity applications - Post-Prototype",
+            "UAV\/drone technologies for damage assessment - All stages",
+            "Advanced cooling technologies for heat sinks and new materials\/solutions to dissipate heat in power electronics systems - All stages",
+            "Anti-corrosive coatings for stainless steel - All stages",
+            "Interconnection technologies: power connections, terminators, connectors, fasteners, screws, etc. to lower cost and reduce failure points in industrial components - All stages",
+            "Highly efficient motor technologies, including motor\/drive setup + configuration and motor\/drive testing technologies - All stages",
+            "Intelligent efficiency and control systems for specific applications, particularly industrial motors, pumps, commercial HVAC, oil & gas field, and mining - All stages",
+            "Lighting technologies: smart lighting systems, LED products and innovations - All stages",
+            "Commercial-industrial boiler water management & treatment - All stages",
+            "Cheaper, more sustainable packaging material and solutions for short and long-distance shipping - All stages",
+            "Mobile cellular products, technology and services - All stages"
+        ]
+    },
+    {
+        "category": "Health, Wellness, and Safety",
+        "areas": [
+            "Biometric sensors to monitor worker\/consumer health & safety - Post-prototype",
+            "Solutions that facilitate independent living for senior citizens - Post-prototype",
+            "B2C platforms and predictive analytics tools for health data: focus on behavior change, disease prevention and longevity - Post-prototype",
+            "Tools to track employee health & safety and incident reporting in the workplace, including SDS\/MSDS management and hazardous materials tracking - Post-prototype",
+            "Occupational\/clinical workplace health innovations, e.g. preventative medicine, onsite clinics, telemedicine etc. - Post-prototype",
+            "Solutions to lower enterprise health insurance costs - Post-prototype",
+            "Less invasive blood and urine collection technologies - Post-prototype",
+            "New technologies\/tools to analyze drinking water quality - All stages",
+            "Fire suppression technology - All stages",
+            "New cooking technologies - All stages"
+        ]
+    },
+    {
+        "category": "IT\/App Development",
+        "areas": [
+            "Innovative web + mobile app development shops for consumer-facing & enterprise apps and tools for enterprise app integration - All stages",
+            "Virtual assistant\/intelligent-assistant tools to simplify customer service and enable digital self-service - All stages",
+            "Voice recognition and IVR technologies - All stages",
+            "\"Digital work\" enterprise applications that leverage cloud, big data, and mobile technologies, including calendar tools, productivity tools, and collaborative project management applications",
+            "Applications to extend Microsoft Office Suite\/OneDrive platforms - All stages",
+            "Innovative enterprise solutions for: content management, advanced search indexing, enterprise resource planning, enterprise messaging\/redefined email, IT service management, customer relationship management, HR management, forms automation, automated billing systems, etc. - All stages",
+            "Network and cloud collaboration tools for sharing audio\/video projects - Post-revenue",
+            "Mobile authentication (e.g. confirming identity via fingerprinting, biometrics, etc.) - All stages",
+            "Industrial manufacturing UX\/UI technology that meets new usability expectations: error-preventing, self-diagnostic, natural language guidance - All stages",
+            "UX\/UI solutions for integrating multiple data sources on screens for manufacturing floor - All stages",
+            "Innovations in assessment\/response delivery, focus on insurance industry - All stages",
+            "Solutions to provide distributed internet\/WiFi access to underserved residential areas - Post-revenue"
+        ]
+    },
+    {
+        "category": "Machine-Machine Communications",
+        "areas": [
+            "Sensor technologies for industrial safety applications (noise levels, hazardous chemicals, air quality) and home\/vehicle applications (toxins, alcohol impairment, air quality)",
+            "Smart home\/connected home technologies (e.g. energy efficiency control, security products, interconnected devices & appliances, etc.) - All stages",
+            "Low-energy Bluetooth beacon technology - All stages",
+            "Internet of Things (IoT) applications with corporate\/enterprise productivity focus (e.g. printer\/device management) - All stages",
+            "Efficient solutions for firmware updates on high-volume products (e.g. using RFID, Bluetooth, cloud solutions, to update software en masse without unboxing) - All stages",
+            "Wireless communication tools for manufacturing plant - All stages",
+            "Utilizing sensors and external data to optimize system performance and\/or energy cost in industrial motors\/variable-speed drives - All stages"
+        ]
+    },
+    {
+        "category": "Security\/Risk Prevention",
+        "areas": [
+            "Cybersecurity: detecting insider threats, preventing security compromises, and fraud mitigation - All stages",
+            "Data compliance and risk mitigation (monitoring data leaks\/loss, insecurities, data access, etc.) - All stages",
+            "Mobile security - All stages"
+        ]
+    }
+]

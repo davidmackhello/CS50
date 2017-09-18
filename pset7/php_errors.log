@@ -1,0 +1,5 @@
+[23-Jul-2016 16:27:18 UTC] PHP Fatal error:  SQLSTATE[HY000] [1045] Access denied for user 'machajew'@'localhost' (using password: YES) in /home/ubuntu/workspace/CS50/pset7/vendor/library50-php-5/CS50/CS50.php on line 313
+[23-Jul-2016 16:27:18 UTC] PHP Stack trace:
+[23-Jul-2016 16:27:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/CS50/pset7/public/login.php:0
+[23-Jul-2016 16:27:18 UTC] PHP   2. CS50::query() /home/ubuntu/workspace/CS50/pset7/public/login.php:27
+[23-Jul-2016 16:27:18 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/CS50/pset7/vendor/library50-php-5/CS50/CS50.php:313

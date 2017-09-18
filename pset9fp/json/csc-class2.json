@@ -1,0 +1,126 @@
+[
+    {
+        "name": "Corporate-Startup Challenge: Class 2",
+        "text": "Please scroll through the technology areas listed below, and submit any companies that you think might be a good fit using the 'Add Referral' fields. When you are done adding companies, click 'Review & Submit.' You only need to refer a startup once, even if it fits multiple categories. If you have any questions, contact David Machajewski at dmachajewski@istcoalition.org."
+    },
+    {
+        "category": "3D Printing\/Digital Manufacturing\/Fabrication",
+        "areas": [
+            "Rapid development of custom-fit parts for industrial supply - All stages",
+            "Solutions to increase efficiency and speed of production in the commercial construction process: new construction models, pre-fabrication solutions, modular design - All stages",
+            "Digital manufacturing technology to generate new commercial building materials - All stages"
+        ]
+    },
+    {
+        "category": "Cyber Security",
+        "areas": [
+            "Enterprise-wide security and risk prediction (protecting secure areas, documents, physical locations, and cyber information) - Emerging growth\/later stage",
+            "Predictive tools for anticipating suspicious activity and preventing compromises on enterprise networks - All stages",
+            "Identifying external warning signs (e.g. news releases, media indicators) that may lead to public security compromises (e.g. data breaches\/leaks) - All stages"
+        ]
+    },
+    {
+        "category": "Data Analytics\/Solutions",
+        "areas": [
+            "Consumer analysis: demographic profiles, sales\/marketing, social media insights - Emerging growth\/later stage",
+            "Solutions to quantify equipment reliability: predicting failure in plant operations and heavy assets (transformers, turbines) via weather, humidity, soil, etc. data - Emerging growth\/later stage",
+            "Analytics and data-driven decision making (companies like Mu Sigma) - Emerging growth\/later stage",
+            "Data analytics platforms for Oracle OBLE\/OBX - All stages",
+            "BI and predictive modeling tools for commodity trading platforms - All stages",
+            "Bandwidth management solutions for data-heavy enterprises - All stages",
+            "Solutions to analyze location-based customer data and make it actionable (i.e. leveraging predictive algorithms to deliver insights to employees responsible for customer experience) - All stages",
+            "Solutions to integrate social conversations and link them to customer profiles (social CRM) to profile behavior and deliver relevant content\/services via mobile devices - All stages",
+            "General solutions for social media monitoring, curation, and insight - All stages",
+            "Data visualization tools for business and social media data (hotel bookings, check-ins, Twitter mentions, etc.) - All stages",
+            "Crowdsourced content management: collecting customer reviews and feedback and incorporating into company brand voice and strategy - All stages"
+        ]
+    },
+    {
+        "category": "Digital Imaging",
+        "areas": [
+            "Technology to identify safety, revenue, and construction efficiency\/standards - All stages",
+            "Imaging applications that assist end users with visualizing industrial parts when placing orders, potentially through mobile app - All stages",
+            "3D mapping for large plants - All stages"
+        ]
+    },
+    {
+        "category": "Enzyme Technology",
+        "areas": [
+            "Enzyme development: faster\/stronger enzymes for food and biofuel processing - Post-proof of concept\/scalable technologies",
+            "Enzyme development: optimizing enzymes for changing thermal and pH environments in manufacturing processes - Post-proof of concept\/scalable technologies"
+        ]
+    },
+    {
+        "category": "IT\/App Development",
+        "areas": [
+            "Mobile app and HTML5 development for end-customer platforms and applications - All stages",
+            "UX\/UI for enterprise and end-customer applications - All stages",
+            "Oracle expertise and integration firms with unique offerings in the Fusion\/Middleware space - All stages",
+            "Customer engagement solutions to reach hotel guests beyond hotel stay throughout the entire travel process - All stages",
+            "Solutions to digitize hotel customer experience (streamlining check-in process, locating events\/meetings, etc.) - All stages",
+            "Comprehensive travel\/hospitality service integration across multiple providers - All stages",
+            "Identifying ways to gain permission to intiate social conversations with customers - All stages",
+            "Enterprise collaboration tools for project management - All stages",
+            "Voice and language technologies for translating videos and other customer materials into different languages - All stages"
+        ]
+    },
+    {
+        "category": "Materials Science",
+        "areas": [
+            "Low-cost non-rare earth materials for battery chemistry applications - All stages",
+            "New membrane materials for use in aqueous phase systems - All stages",
+            "Membrane technologies to decrease energy footprint (food and biofuel processing) - All stages",
+            "Catalysis technologies that can increase process efficiencies (food and biofuel processing), including nanomaterials - All stages"
+        ]
+    },
+    {
+        "category": "Microbial Technology, Food Safety, Health & Nutrition",
+        "areas": [
+            "Faster and more accurate solutions for pathogen sensing and toxicity detection in food products - Post-proof of concept\/scalable technologies",
+            "Vegetable proteins and dietary fibers - Post-proof of concept\/scalable technologies",
+            "New and innovative food processing technologies - Post-proof of concept\/scalable technologies"
+        ]
+    },
+    {
+        "category": "Molecular Biology\/Genetic Engineering",
+        "areas": [
+            "Unique toolsets for genetic engineering, with an emphasis on rapid technologies - Post-proof of concept\/scalable technologies"
+        ]
+    },
+    {
+        "category": "Power Management\/Battery Technology",
+        "areas": [
+            "Power management solutions for large grid-scale applications - All stages",
+            "Energy management and sustainability solutions in commercial construction\/renovations - Emerging growth ($1M+)",
+            "Fuel cells and home power technologies that are disruptive to utility providers - All stages",
+            "Home and building power management systems for smart grid-enabled buildings - All stages",
+            "At-home energy storage technologies that reduce utility demand - All stages",
+            "Technologies to improve energy efficiency in processing plants - Post-proof of concept\/scalable technologies",
+            "Energy efficient lighting alternatives for fluorescent LEDs - Emerging growth ($1M+)",
+            "Wireless charging\/wireless power solutions (any device, small form factor) - Emerging growth ($1M+)",
+            "Solutions to decrease energy draw and cost associated with HVAC in commercial buildings - Emerging growth ($1M+)",
+            "Energy efficiency and monitoring technologies for commercial applications - All stages"
+        ]
+    },
+    {
+        "category": "Robotics",
+        "areas": [
+            "Drone technology for storm damage assesment - All stages"
+        ]
+    },
+    {
+        "category": "Sensors\/Machine-Machine Communications",
+        "areas": [
+            "Solutions to digitize large plants (equipping plants with sensors for data collection, process monitoring, systems health, etc.) and create networks across plants - Post-proof of concept\/scalable technologies",
+            "Energy harvesting sensors - Later stage\/production-ready companies",
+            "Wifi-enabled sensors without external power sources (vibrations\/heat) - All stages",
+            "Wearable\/biometric sensors for measuring worker health in hazardous situations - All stages",
+            "Dry sensors for characterizing meal process and product quality in food processing plants (measuring temperature, 'stickiness,' humidity, protein content, etc.) - All stages",
+            "Wireless sensor technologies\/instrumentation that can be used \"in the field\" - All stages",
+            "Sensor and\/or wearable technology for location-based consumer data collection, including movement, purchasing behavior, and entertainment consumption - All stages",
+            "Home meters, home management systems, home-integrated devices - All stages",
+            "Solutions that integrate consumer-grade technologies into an enterprise - All stages",
+            "RFID\/security solutions for commercial hotel applications - All stages"
+        ]
+    }
+]
