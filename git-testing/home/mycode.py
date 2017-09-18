@@ -4,6 +4,9 @@ def uptop():
 def charlie():
     print("charlie added a new function in core python while working on his branch")
 
+def snoopy():
+    print("snooooopy")
+
 def main():
     k = 2 + 2
     l = 5 + 4
@@ -13,6 +16,9 @@ def main():
 
 def david():
     print("david added a function after main while updating the master branch")
+
+def woodstock():
+    print("woodstock")
 
 def downlow():
     print("charlie feels this could end the file")
