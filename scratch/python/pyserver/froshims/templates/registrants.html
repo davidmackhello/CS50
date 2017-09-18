@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    registrants
+{% endblock %}
+
+{% block body %}
+    <ul>
+        {% for row in rows %}
+            <li>{{ row.name }} from {{ row.dorm }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
