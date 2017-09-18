@@ -2,7 +2,10 @@
 #include <stdlib.h>
 #include <cs50.h>
 #include <string.h>
+#include <ctype.h>
 #define ALPHASIZE 26
+#define UPPERSTART 65
+#define LOWERSTART 97
 
 // prototype
 char alphamath(int lowbound, char px, int shift);
@@ -29,17 +32,18 @@ int main(int argc, string argv[])
     // prompt user for string
     string plaintext = GetString();
     
-    // encrypt uppercase and lowercase chars according to key
+    // index through each char in plaintext
     for (int i = 0, n = strlen(plaintext); i < n; i++)
     {
-        if (plaintext[i] >= 'A' && plaintext[i] <= 'Z')
+        // only shift alphabetical characters
+        if (isalpha(plaintext[i]))
         {
-            printf("%c", alphamath(65, plaintext[i], k));
+            // set AASCI starting point based on capitalization, calculate and print shifted char
+            int lowbound = (isupper(plaintext[i])) ? UPPERSTART : LOWERSTART;
+            printf("%c", alphamath(lowbound, plaintext[i], k));
         }
-        else if (plaintext[i] >= 'a' && plaintext[i] <= 'z')
-        {
-            printf("%c", alphamath(97, plaintext[i], k));
-        }
+        
+        // print non-alpha characters as is
         else
         {
             printf("%c", plaintext[i]);

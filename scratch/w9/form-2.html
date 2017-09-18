@@ -37,14 +37,14 @@ malan@harvard.edu
                     }
 
                     // validate confirmation
-                    else if ($('#registration input[name=password]').val() != $('#registration input[name=confirmation]').val()) 
+                    else if ($('#registration input[name=password]').val() != $('#registration input[name=confirmation]').val())
                     {
                         alert('Passwords do not match!');
                         return false;
                     }
 
                     // validate agreement
-                    else if (!$('#registration input[name=agreement]').is(':checked')) 
+                    else if (!$('#registration input[name=agreement]').is(':checked'))
                     {
                         alert('You must agree to the terms and conditions!');
                         return false;

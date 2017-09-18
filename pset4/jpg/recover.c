@@ -61,7 +61,7 @@ int main(void)
                 fwrite(buffer, CAMBLOCK, 1, jpg_out);
                 
                 // continue reading into cardfile and writing to output until next jpeg signature, ending program if EOF is reached
-                while (fread(buffer, CAMBLOCK, 1, cardfile) != 1)
+                if (fread(buffer, CAMBLOCK, 1, cardfile) != 1)
                 {
                     fclose(cardfile);
                     fclose(jpg_out);

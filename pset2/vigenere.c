@@ -6,7 +6,7 @@
 #define LOWBOUND_UPPERC 65
 #define LOWBOUND_LOWERC 97
 
-// prototype
+// prototypes
 char alphashift(char px, int shift);
 int alpharef(char a);
 
@@ -54,7 +54,7 @@ int main(int argc, string argv[])
         }
         else
         {
-            printf("%c", alphashift(plaintext[i], 0));
+            printf("%c", plaintext[i]);
             j = j - 1;
         }
     }

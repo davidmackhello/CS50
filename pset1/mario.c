@@ -27,11 +27,22 @@ int main(void)
     }
     while (h < 0 || h > 23);
     
+    /*
+    
     // builds pyramid according to parameters
     for (int i = (h-1); i >= 0; i--, top++)
     {
         charprint(blank,i);
         charprint(brick,top);
+        printf("\n");
+    }
+    
+    */
+    
+    for (int i = 0; i < height; i++, height--, top++)
+    {
+        charprint(blank, (height-1));
+        charprint(block, top);
         printf("\n");
     }
 }
