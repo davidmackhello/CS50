@@ -5,3 +5,7 @@ function atom() {
 function atom2() {
   console.log('here it is again');
 }
+
+function timeforbed() {
+  console.log('goodnight');
+}
